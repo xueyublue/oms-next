@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import "antd/dist/antd.css";
 import { Layout, Menu } from "antd";
 import {
@@ -42,16 +43,16 @@ const NavBar = () => {
       }}
     >
       <div className="logo" />
-      <Menu theme="dark" mode="inline" defaultSelectedKeys={["instance-details"]}>
+      <Menu theme="dark" mode="inline" defaultSelectedKeys={["dashboard"]}>
         <Menu.Item key="dashboard" icon={<DashboardOutlined />}>
-          Dashboard
+          <Link href="/dashboard">Dashboard</Link>
         </Menu.Item>
         <SubMenu key="instance" icon={<UnorderedListOutlined />} title="Instance">
           <Menu.Item key="instance-details" icon={<UnorderedListOutlined />}>
-            Details
+            <Link href="/instance/details">Details</Link>
           </Menu.Item>
           <Menu.Item key="instance-sga" icon={<PieChartOutlined />}>
-            SGA
+            <Link href="/instance/sga">SGA</Link>
           </Menu.Item>
           <Menu.Item key="instance-banners" icon={<OneToOneOutlined />}>
             Banners
@@ -64,7 +65,9 @@ const NavBar = () => {
           </Menu.Item>
         </SubMenu>
         <SubMenu key="performance" icon={<LineChartOutlined />} title="Performance">
-          <Menu.Item key="performance" icon={<LineChartOutlined />}></Menu.Item>
+          <Menu.Item key="performance-session" icon={<LineChartOutlined />}>
+            Session
+          </Menu.Item>
         </SubMenu>
         <SubMenu key="space" icon={<DatabaseOutlined />} title="Space">
           <Menu.Item key="space-tablespace" icon={<MacCommandFilled />}>
