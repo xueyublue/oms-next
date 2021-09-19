@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <NavBar />
-      <Layout className="site-layout" className="site-layout" style={{ marginLeft: 200, minHeight: "100vh" }}>
+      <Layout className="site-layout" className="site-layout" style={{ marginLeft: 240, minHeight: "100vh" }}>
         <Header className="site-layout-background" style={{ paddingLeft: 16 }}>
           App Bar
         </Header>

@@ -41,6 +41,7 @@ const NavBar = () => {
         position: "fixed",
         left: 0,
       }}
+      width={240}
     >
       <div className="logo" />
       <Menu theme="dark" mode="inline" defaultSelectedKeys={["dashboard"]}>
