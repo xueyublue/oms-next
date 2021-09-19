@@ -9,12 +9,11 @@ const { Header, Content, Footer } = Layout;
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout
-    >
+    <Layout>
       <NavBar />
       <Layout className="site-layout" className="site-layout" style={{ marginLeft: 200, minHeight: "100vh" }}>
         <Header className="site-layout-background" style={{ paddingLeft: 16 }}>
-          App bar
+          App Bar
         </Header>
         <Content
           className="site-layout-background"
@@ -26,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         >
           <Component {...pageProps} />
         </Content>
-        <Footer style={{ textAlign: 'center' }}>All rights reserved by Daifuku Singapore 2021</Footer>
+        <Footer style={{ textAlign: "center" }}>All rights reserved by Daifuku Singapore 2021</Footer>
       </Layout>
     </Layout>
   );
