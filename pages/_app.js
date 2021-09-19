@@ -25,15 +25,12 @@ function MyApp({ Component, pageProps }) {
       <NavBar />
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{ padding: 0 }}>
-          {React.createElement(false ? MenuUnfoldOutlined : MenuFoldOutlined, {
-            className: "trigger",
-            onClick: toggle,
-          })}
+          App bar
         </Header>
         <Content
           className="site-layout-background"
           style={{
-            margin: "24px 16px",
+            margin: "8px 8px",
             padding: 24,
             minHeight: 650,
           }}
