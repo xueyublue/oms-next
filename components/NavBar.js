@@ -67,7 +67,7 @@ const NavBar = () => {
         </SubMenu>
         <SubMenu key="performance" icon={<LineChartOutlined />} title="Performance">
           <Menu.Item key="performance-session" icon={<LineChartOutlined />}>
-            Session
+            <Link href="/session/session">Session</Link>
           </Menu.Item>
         </SubMenu>
         <SubMenu key="space" icon={<DatabaseOutlined />} title="Space">
@@ -84,11 +84,9 @@ const NavBar = () => {
             Table Records
           </Menu.Item>
         </SubMenu>
-        <SubMenu key="session" icon={<ApartmentOutlined />} title="Session">
-          <Menu.Item key="session-" icon={<ApartmentOutlined />}>
-            Session
-          </Menu.Item>
-        </SubMenu>
+        <Menu.Item key="session-" icon={<ApartmentOutlined />}>
+          <Link href="/session">Session</Link>
+        </Menu.Item>
         <SubMenu key="user" icon={<UserOutlined />} title="User">
           <Menu.Item key="user-profiles" icon={<SolutionOutlined />}>
             Profiles

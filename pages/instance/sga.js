@@ -18,14 +18,7 @@ const columns = [
 const SgaConfigurations = ({ data }) => {
   return (
     <div>
-      <Table
-        columns={columns}
-        dataSource={data}
-        bordered
-        size="small"
-        pagination={{ pageSize: 30, position: ["topLeft"] }}
-        title={() => <h3>SGA Configuration</h3>}
-      />
+      <Table title={() => <h3>SGA Configuration</h3>} columns={columns} dataSource={data} bordered size="small" />
     </div>
   );
 };

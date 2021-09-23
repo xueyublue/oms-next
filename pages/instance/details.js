@@ -15,17 +15,9 @@ const columns = [
 ];
 
 const InstanceDetails = ({ data }) => {
-  console.log(data);
   return (
     <div>
-      <Table
-        columns={columns}
-        dataSource={data}
-        bordered
-        size="small"
-        pagination={{ pageSize: 30, position: ["topLeft"] }}
-        title={() => <h3>Instance Details</h3>}
-      />
+      <Table title={() => <h3>Instance Details</h3>} columns={columns} dataSource={data} bordered size="small" />
     </div>
   );
 };
