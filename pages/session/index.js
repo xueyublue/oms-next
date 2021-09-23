@@ -3,10 +3,10 @@ import { Table } from "antd";
 
 const columns = [
   {
-    title: "Session ID",
+    title: "ID",
     dataIndex: "id",
     key: "id",
-    width: 100,
+    width: 60,
     align: "center",
     render: (text) => <a style={{ color: "#1890FF" }}>{text}</a>,
   },
@@ -38,7 +38,7 @@ const columns = [
     title: "OS User",
     dataIndex: "osUser",
     key: "id",
-    width: 100,
+    width: 110,
   },
   {
     title: "Machine",
@@ -62,7 +62,7 @@ const columns = [
     title: "Module",
     dataIndex: "module",
     key: "id",
-    width: 100,
+    width: 150,
   },
   {
     title: "Process",
@@ -88,7 +88,7 @@ const Sessions = ({ data }) => {
         bordered
         size="small"
         pagination={{ pageSize: 15, position: ["topLeft"] }}
-        scroll={{ x: 1300, y: 600 }}
+        scroll={{ x: 1300 }}
       />
     </div>
   );
