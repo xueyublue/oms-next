@@ -144,7 +144,6 @@ const Sessions = ({ data }) => {
         </Form.Item>
       </Form>
       <Table
-        title={() => <h3>Session</h3>}
         columns={columns}
         dataSource={filteredData}
         bordered
