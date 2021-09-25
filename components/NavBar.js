@@ -36,8 +36,7 @@ const NavBar = () => {
   if (asPath !== selectedKeys) setSelectedKeys(asPath);
   if (!openKeys && asPath) {
     const lastIndex = asPath.lastIndexOf("/");
-    if(lastIndex !== 0)
-      setOpenKeys(asPath.substr(0, asPath.lastIndexOf("/")));
+    if (lastIndex !== 0) setOpenKeys(asPath.substr(0, asPath.lastIndexOf("/")));
   }
   console.log(`selectedKeys: ${selectedKeys}, asPath: ${asPath}, openKeys: ${openKeys}`);
 
@@ -83,35 +82,35 @@ const NavBar = () => {
           <Menu.Item key="/instance/sga" icon={<PieChartOutlined />}>
             <Link href="/instance/sga">SGA</Link>
           </Menu.Item>
-          <Menu.Item key="instance-banners" icon={<OneToOneOutlined />}>
-            Banners
+          <Menu.Item key="/instance/banners" icon={<OneToOneOutlined />}>
+            <Link href="/instance/banners">Banners</Link>
           </Menu.Item>
-          <Menu.Item key="instance-resource-limit" icon={<ColumnHeightOutlined />}>
-            Resource Limit
+          <Menu.Item key="/instance/resourcelimit" icon={<ColumnHeightOutlined />}>
+            <Link href="/instance/resourcelimit">Resource Limit</Link>
           </Menu.Item>
-          <Menu.Item key="instance-oracle-param" icon={<ProjectOutlined />}>
-            Parameters
+          <Menu.Item key="/instance/oracleparams" icon={<ProjectOutlined />}>
+            <Link href="/instance/oracleparams">Parameters</Link>
           </Menu.Item>
         </SubMenu>
 
         <SubMenu key="/performance" icon={<LineChartOutlined />} title="Performance">
-          <Menu.Item key="performance-session" icon={<LineChartOutlined />}>
-            <Link href="/session/session">Session</Link>
+          <Menu.Item key="/performance/session" icon={<LineChartOutlined />}>
+            <Link href="/performance/session">Session</Link>
           </Menu.Item>
         </SubMenu>
 
         <SubMenu key="/space" icon={<DatabaseOutlined />} title="Space">
-          <Menu.Item key="space-tablespace" icon={<MacCommandFilled />}>
-            Tablespace
+          <Menu.Item key="/space/tablespace" icon={<MacCommandFilled />}>
+            <Link href="/space/tablespace">Tablespace</Link>
           </Menu.Item>
-          <Menu.Item key="space-top-tables" icon={<OrderedListOutlined />}>
-            Top Tables
+          <Menu.Item key="/space/toptables" icon={<OrderedListOutlined />}>
+            <Link href="/space/toptables">Top Tables</Link>
           </Menu.Item>
-          <Menu.Item key="space-top-indexes" icon={<OrderedListOutlined />}>
-            Top Indexes
+          <Menu.Item key="/space/topindexes" icon={<OrderedListOutlined />}>
+            <Link href="/space/topindexes">Top Indexes</Link>
           </Menu.Item>
-          <Menu.Item key="space-table-records" icon={<TableOutlined />}>
-            Table Records
+          <Menu.Item key="/space/tablerecords" icon={<TableOutlined />}>
+            <Link href="/space/tablerecords">Table Records</Link>
           </Menu.Item>
         </SubMenu>
 
@@ -119,21 +118,21 @@ const NavBar = () => {
           <Link href="/session">Session</Link>
         </Menu.Item>
 
-        <SubMenu key="user" icon={<UserOutlined />} title="User">
-          <Menu.Item key="user-profiles" icon={<SolutionOutlined />}>
-            Profiles
+        <SubMenu key="/user" icon={<UserOutlined />} title="User">
+          <Menu.Item key="/user/profiles" icon={<SolutionOutlined />}>
+            <Link href="/space/profiles">Profiles</Link>
           </Menu.Item>
-          <Menu.Item key="user-roles" icon={<TeamOutlined />}>
-            Roles
+          <Menu.Item key="/user/roles" icon={<TeamOutlined />}>
+            <Link href="/space/roles">Roles</Link>
           </Menu.Item>
-          <Menu.Item key="user-roles-priv" icon={<IdcardOutlined />}>
-            Role Privileges
+          <Menu.Item key="/user/rolespriv" icon={<IdcardOutlined />}>
+            <Link href="/space/rolespriv">Role Privileges</Link>
           </Menu.Item>
-          <Menu.Item key="user-users" icon={<UserOutlined />}>
-            Users
+          <Menu.Item key="/user/users" icon={<UserOutlined />}>
+            <Link href="/space/users">Users</Link>
           </Menu.Item>
-          <Menu.Item key="user-user-priv" icon={<IdcardOutlined />}>
-            User Privileges
+          <Menu.Item key="/user/userpriv" icon={<IdcardOutlined />}>
+            <Link href="/space/userpriv">User Privileges</Link>
           </Menu.Item>
         </SubMenu>
 
