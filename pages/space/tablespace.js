@@ -1,24 +1,90 @@
 import React from "react";
-
-import { Table } from "antd";
+import { Table, Form, Progress } from "antd";
 
 const columns = [
   {
-    title: "Field",
+    title: "Name",
     dataIndex: "name",
-    key: "key",
+    key: "tablespace",
+    width: 120,
   },
   {
-    title: "Value",
-    dataIndex: "value",
-    key: "key",
+    title: "Path",
+    dataIndex: "path",
+    key: "tablespace",
+    width: 200,
+  },
+  {
+    title: "Status",
+    dataIndex: "status",
+    key: "tablespace",
+    width: 80,
+  },
+  {
+    title: "Size (MB)",
+    dataIndex: "size",
+    key: "tablespace",
+    width: 80,
+  },
+  {
+    title: "Free Size (MB)",
+    dataIndex: "freeSize",
+    key: "tablespace",
+    width: 120,
+  },
+  {
+    title: "Occupancy",
+    dataIndex: "occupancy",
+    key: "tablespace",
+    width: 140,
+    render: (text) => (
+      <Progress
+        percent={text}
+        status={text >= 80 ? "exception" : "normal"}
+        strokeLinecap="square"
+        format={(percent) => `${percent}%`}
+      />
+    ),
+  },
+  {
+    title: "Auto Extend",
+    dataIndex: "autoExtensible",
+    key: "tablespace",
+    width: 120,
+  },
+  {
+    title: "Next Extend (MB)",
+    dataIndex: "nextExtend",
+    key: "tablespace",
+    width: 140,
+  },
+  {
+    title: "Contents",
+    dataIndex: "contents",
+    key: "tablespace",
+    width: 100,
+  },
+  {
+    title: "Allocation Type",
+    dataIndex: "allocationType",
+    key: "tablespace",
+    width: 120,
   },
 ];
 
 const Tablespace = ({ data }) => {
+  const [form] = Form.useForm();
+
   return (
     <div>
-      <Table title={() => <h3>Tablespace</h3>} columns={columns} dataSource={data} bordered size="small" />
+      <Table
+        columns={columns}
+        dataSource={data}
+        bordered
+        size="small"
+        pagination={{ pageSize: 15, position: ["topRight"] }}
+        scroll={{ x: 1300 }}
+      />
     </div>
   );
 };
@@ -26,7 +92,7 @@ const Tablespace = ({ data }) => {
 export default Tablespace;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/instance/details");
+  const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/space/tablespace");
   const data = await response.json();
   return {
     props: { data: data },
