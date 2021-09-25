@@ -88,8 +88,8 @@ const NavBar = () => {
           <Menu.Item key="/instance/resourcelimit" icon={<ColumnHeightOutlined />}>
             <Link href="/instance/resourcelimit">Resource Limit</Link>
           </Menu.Item>
-          <Menu.Item key="/instance/oracleparams" icon={<ProjectOutlined />}>
-            <Link href="/instance/oracleparams">Parameters</Link>
+          <Menu.Item key="/instance/parameters" icon={<ProjectOutlined />}>
+            <Link href="/instance/parameters">Parameters</Link>
           </Menu.Item>
         </SubMenu>
 
@@ -120,19 +120,19 @@ const NavBar = () => {
 
         <SubMenu key="/user" icon={<UserOutlined />} title="User">
           <Menu.Item key="/user/profiles" icon={<SolutionOutlined />}>
-            <Link href="/space/profiles">Profiles</Link>
+            <Link href="/user/profiles">Profiles</Link>
           </Menu.Item>
           <Menu.Item key="/user/roles" icon={<TeamOutlined />}>
-            <Link href="/space/roles">Roles</Link>
+            <Link href="/user/roles">Roles</Link>
           </Menu.Item>
-          <Menu.Item key="/user/rolespriv" icon={<IdcardOutlined />}>
-            <Link href="/space/rolespriv">Role Privileges</Link>
+          <Menu.Item key="/user/roleprivileges" icon={<IdcardOutlined />}>
+            <Link href="/user/roleprivileges">Role Privileges</Link>
           </Menu.Item>
           <Menu.Item key="/user/users" icon={<UserOutlined />}>
-            <Link href="/space/users">Users</Link>
+            <Link href="/user/users">Users</Link>
           </Menu.Item>
-          <Menu.Item key="/user/userpriv" icon={<IdcardOutlined />}>
-            <Link href="/space/userpriv">User Privileges</Link>
+          <Menu.Item key="/user/userprivileges" icon={<IdcardOutlined />}>
+            <Link href="/user/userprivileges">User Privileges</Link>
           </Menu.Item>
         </SubMenu>
 
