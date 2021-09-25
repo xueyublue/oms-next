@@ -20,6 +20,7 @@ import {
   OrderedListOutlined,
   MacCommandFilled,
   TableOutlined,
+  DeploymentUnitOutlined,
 } from "@ant-design/icons";
 
 import { useState } from "react";
@@ -42,9 +43,7 @@ const NavBar = () => {
 
   return (
     <Sider
-      trigger={null}
       collapsible
-      collapsed={collapsed}
       style={{
         overflow: "auto",
         height: "100vh",
@@ -53,7 +52,9 @@ const NavBar = () => {
       }}
       width={240}
     >
-      <div className="logo" />
+      <div className="logo">
+        <h3 style={{ color: "gray" }}>ORACLE Monitoring System</h3>
+      </div>
       <Menu
         theme="dark"
         mode="inline"
@@ -75,7 +76,7 @@ const NavBar = () => {
           <Link href="/dashboard">Dashboard</Link>
         </Menu.Item>
 
-        <SubMenu key="/instance" icon={<UnorderedListOutlined />} title="Instance">
+        <SubMenu key="/instance" icon={<DeploymentUnitOutlined />} title="Instance">
           <Menu.Item key="/instance/details" icon={<UnorderedListOutlined />}>
             <Link href="/instance/details">Details</Link>
           </Menu.Item>
