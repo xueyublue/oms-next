@@ -133,7 +133,7 @@ const Sessions = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="primary"
+            type="default"
             onClick={() => {
               setStatus("All");
               setUserName("All");
@@ -148,7 +148,7 @@ const Sessions = ({ data }) => {
         dataSource={filteredData}
         bordered
         size="small"
-        pagination={{ pageSize: 15, position: ["topLeft"] }}
+        pagination={{ pageSize: 15, position: ["topRight"] }}
         scroll={{ x: 1300 }}
       />
     </div>
