@@ -1,5 +1,6 @@
 import React from "react";
-import { Table } from "antd";
+import { Table, Form, Input, Button, Select } from "antd";
+import { useState } from "react";
 
 const columns = [
   {
@@ -78,13 +79,74 @@ const columns = [
   },
 ];
 
+const getDistinctStatus = () => {
+  return ["All", "Active", "Inactive"];
+};
+
+const getDistinctUserNames = (data) => {
+  let usernames = [];
+  data.map((row) => row.userName && usernames.push(row.userName));
+  return ["All", ...new Set(usernames)];
+};
+
 const Sessions = ({ data }) => {
+  const [form] = Form.useForm();
+  const statusList = getDistinctStatus();
+  const userNameList = getDistinctUserNames(data);
+  const [status, setStatus] = useState("All");
+  const [userName, setUserName] = useState("All");
+  const filteredData = data
+    .filter((row) => (userName === "All" ? true : row.userName === userName))
+    .filter((row) => (status === "All" ? true : row.status === status));
+
   return (
     <div>
+      <Form form={form} layout={"inline"} size={"middle"}>
+        <Form.Item label="Status">
+          <Select
+            value={status}
+            onChange={(value) => {
+              setStatus(value);
+            }}
+            style={{ width: 100 }}
+          >
+            {statusList.map((status) => (
+              <Select.Option value={status} key={status}>
+                {status}
+              </Select.Option>
+            ))}
+          </Select>
+        </Form.Item>
+        <Form.Item label="User Name" style={{ width: 200 }}>
+          <Select
+            value={userName}
+            onChange={(value) => {
+              setUserName(value);
+            }}
+          >
+            {userNameList.map((username) => (
+              <Select.Option value={username} key={username}>
+                {username}
+              </Select.Option>
+            ))}
+          </Select>
+        </Form.Item>
+        <Form.Item>
+          <Button
+            type="primary"
+            onClick={() => {
+              setStatus("All");
+              setUserName("All");
+            }}
+          >
+            Clear
+          </Button>
+        </Form.Item>
+      </Form>
       <Table
         title={() => <h3>Session</h3>}
         columns={columns}
-        dataSource={data}
+        dataSource={filteredData}
         bordered
         size="small"
         pagination={{ pageSize: 15, position: ["topLeft"] }}
