@@ -52,9 +52,7 @@ const NavBar = () => {
       }}
       width={240}
     >
-      <div className="logo">
-        <h3 style={{ color: "gray" }}>ORACLE Monitoring System</h3>
-      </div>
+      <div className="logo" />
       <Menu
         theme="dark"
         mode="inline"
