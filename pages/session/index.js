@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Form, Input, Button, Select } from "antd";
+import { Table, Form, Button, Select, message } from "antd";
 import { useState } from "react";
 
 const columns = [
@@ -100,6 +100,7 @@ const Sessions = ({ data }) => {
   const filteredData = data
     .filter((row) => (userName === "All" ? true : row.userName === userName))
     .filter((row) => (status === "All" ? true : row.status === status));
+  message.info(`${data.length} records found.`);
 
   return (
     <div>

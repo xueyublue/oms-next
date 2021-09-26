@@ -1,5 +1,5 @@
 import React from "react";
-import { Table } from "antd";
+import { Table, message } from "antd";
 
 const columns = [
   {
@@ -15,6 +15,8 @@ const columns = [
 ];
 
 const InstanceDetails = ({ data }) => {
+  message.info(`${data.length} records found.`);
+
   return (
     <div>
       <Table title={() => <h3>Instance Details</h3>} columns={columns} dataSource={data} bordered size="small" />
