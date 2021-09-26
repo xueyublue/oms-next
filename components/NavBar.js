@@ -43,7 +43,6 @@ const NavBar = () => {
 
   return (
     <Sider
-      collapsible
       style={{
         overflow: "auto",
         height: "100vh",

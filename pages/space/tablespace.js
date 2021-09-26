@@ -24,13 +24,15 @@ const columns = [
     title: "Size (MB)",
     dataIndex: "size",
     key: "tablespace",
-    width: 80,
+    width: 100,
+    align: "right",
   },
   {
     title: "Free Size (MB)",
     dataIndex: "freeSize",
     key: "tablespace",
     width: 120,
+    align: "right",
   },
   {
     title: "Occupancy",
@@ -50,13 +52,14 @@ const columns = [
     title: "Auto Extend",
     dataIndex: "autoExtensible",
     key: "tablespace",
-    width: 120,
+    width: 100,
   },
   {
     title: "Next Extend (MB)",
     dataIndex: "nextExtend",
     key: "tablespace",
     width: 140,
+    align: "right",
   },
   {
     title: "Contents",
@@ -82,7 +85,7 @@ const Tablespace = ({ data }) => {
         dataSource={data}
         bordered
         size="small"
-        pagination={{ pageSize: 15, position: ["topRight"] }}
+        pagination={{ pageSize: 15, position: ["none"] }}
         scroll={{ x: 1300 }}
       />
     </div>
