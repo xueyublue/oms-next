@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Form, Progress } from "antd";
+import { Table, Form, Progress, message } from "antd";
 
 const columns = [
   {
@@ -7,6 +7,7 @@ const columns = [
     dataIndex: "name",
     key: "tablespace",
     width: 120,
+    sorter: (a, b) => a.name - b.name,
   },
   {
     title: "Path",
@@ -26,13 +27,15 @@ const columns = [
     key: "tablespace",
     width: 100,
     align: "right",
+    sorter: (a, b) => a.size - b.size,
   },
   {
-    title: "Free Size (MB)",
+    title: "Free Size (MB) ",
     dataIndex: "freeSize",
     key: "tablespace",
     width: 120,
     align: "right",
+    sorter: (a, b) => a.freeSize - b.freeSize,
   },
   {
     title: "Occupancy",
@@ -47,6 +50,7 @@ const columns = [
         format={(percent) => `${percent}%`}
       />
     ),
+    sorter: (a, b) => a.occupancy - b.occupancy,
   },
   {
     title: "Auto Extend",
@@ -77,6 +81,7 @@ const columns = [
 
 const Tablespace = ({ data }) => {
   const [form] = Form.useForm();
+  message.info(`${data.length} records found.`);
 
   return (
     <div>
