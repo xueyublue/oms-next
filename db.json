@@ -45,5 +45,8568 @@
       "name": "Current Sessions",
       "value": 70
     }
+  ],
+  "tablespace": [
+    {
+      "allocationType": "Uniform",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 182,
+      "name": "INDX",
+      "nextExtend": 20.0,
+      "occupancy": 27,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\INDX_01.DBF",
+      "size": 250,
+      "status": "Online"
+    },
+    {
+      "allocationType": "Uniform",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 580,
+      "name": "INDX_LARGE",
+      "nextExtend": 20.0,
+      "occupancy": 3,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\INDX_LARGE_01.DBF",
+      "size": 600,
+      "status": "Online"
+    },
+    {
+      "allocationType": "Uniform",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 490,
+      "name": "STATSPACK",
+      "nextExtend": 0.01,
+      "occupancy": 2,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\STATSPACK_01.DBF",
+      "size": 500,
+      "status": "Online"
+    },
+    {
+      "allocationType": "System",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 61,
+      "name": "SYSAUX",
+      "nextExtend": 20.0,
+      "occupancy": 90,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\SYSAUXORCL.ORA",
+      "size": 600,
+      "status": "Online"
+    },
+    {
+      "allocationType": "System",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 172,
+      "name": "SYSTEM",
+      "nextExtend": 10.0,
+      "occupancy": 71,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\SYS1ORCL.ORA",
+      "size": 600,
+      "status": "Online"
+    },
+    {
+      "allocationType": "System",
+      "autoExtensible": "Yes",
+      "contents": "Undo",
+      "freeSize": 1981,
+      "name": "UNDOTBS",
+      "nextExtend": 20.0,
+      "occupancy": 1,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\UNDOTBS1.ORA",
+      "size": 2000,
+      "status": "Online"
+    },
+    {
+      "allocationType": "Uniform",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 116,
+      "name": "WCS",
+      "nextExtend": 20.0,
+      "occupancy": 23,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\WCS_01.DBF",
+      "size": 150,
+      "status": "Online"
+    },
+    {
+      "allocationType": "Uniform",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 24,
+      "name": "WCS_INDEX",
+      "nextExtend": 20.0,
+      "occupancy": 52,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\WCS_INDEX_01.DBF",
+      "size": 50,
+      "status": "Online"
+    },
+    {
+      "allocationType": "Uniform",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 568,
+      "name": "WMS",
+      "nextExtend": 20.0,
+      "occupancy": 19,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\WMS_01.DBF",
+      "size": 700,
+      "status": "Online"
+    },
+    {
+      "allocationType": "Uniform",
+      "autoExtensible": "Yes",
+      "contents": "Permanent",
+      "freeSize": 600,
+      "name": "WMS_LARGE",
+      "nextExtend": 20.0,
+      "occupancy": 88,
+      "path": "E:\\ORACLE\\ORADATA\\ORCL\\WMS_LARGE_01.DBF",
+      "size": 4980,
+      "status": "Online"
+    }
+  ],
+  "toptables": [
+    {
+      "owner": "WMS",
+      "segmentName": "DNHOSTCOMMHISTORYDETAIL",
+      "segmentSize": 3930
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DNHOSTCOMMHISTORY",
+      "segmentSize": 420
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IDL_UB1$",
+      "segmentSize": 72
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMITEM",
+      "segmentSize": 50
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DNSTOCKTAKEPLANDETAIL",
+      "segmentSize": 34
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SOURCE$",
+      "segmentSize": 27
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IDL_UB2$",
+      "segmentSize": 19
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMSTATIONTYPE",
+      "segmentSize": 8
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "BIN$UuGL4EAGSmyFVKYpfLmmpQ==$0",
+      "segmentSize": 8
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "VIEW$",
+      "segmentSize": 8
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ARGUMENT$",
+      "segmentSize": 6
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IDL_CHAR$",
+      "segmentSize": 6
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMSHELF",
+      "segmentSize": 6
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KOTAD$",
+      "segmentSize": 4
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OBJ$",
+      "segmentSize": 4
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SYSMETRIC_SUMMARY",
+      "segmentSize": 4
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DEPENDENCY$",
+      "segmentSize": 3
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_PARAMETERS",
+      "segmentSize": 3
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SQL_PLAN",
+      "segmentSize": 3
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IDL_SB4$",
+      "segmentSize": 3
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMGROUPCONTROLLER",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMHARDZONE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMMACHINE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMSOFTZONE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCBASE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCMENU",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCMYMENU",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCOPERATIONDEFINE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCROLE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCUSER",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCOPERATIONEQUIPMENTTYPE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCUSERGADGET",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMEQUIPMENT",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCDGATEDEFINES",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCROLEMENUMAP",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DCMENULAYOUT",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMAREA",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMCUSTOMER",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMSUPPLIER",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMWAREHOUSE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMTERMINALAREA",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMSTATION",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMBANKSELECT",
+      "segmentSize": 2
+    },
+    {
+      "owner": "MC",
+      "segmentName": "DMAISLE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DNARUF",
+      "segmentSize": 2
+    },
+    {
+      "owner": "PERFSTAT",
+      "segmentName": "STATS$IDLE_EVENT",
+      "segmentSize": 2
+    },
+    {
+      "owner": "PERFSTAT",
+      "segmentName": "STATS$LEVEL_DESCRIPTION",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_SNAPSHOT_DETAILS",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CON_SYSMETRIC_SUMMARY",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_ENQUEUE_STAT",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_BG_EVENT_SUMMARY",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KOTTB$",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KOTTD$",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SETTINGS$",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COM$",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ACCESS$",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DNSTOCKTAKEPLANHEADER",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HIST_HEAD$",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMWARENAVISYSTEM",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMEXCHANGEENVIRONMENT",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMALLOCATEPRIORITY",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DNHOSTCOMMREQUEST",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DMHOSTDATADEFINE",
+      "segmentSize": 2
+    },
+    {
+      "owner": "WMS",
+      "segmentName": "DNSYSTEMKVS",
+      "segmentSize": 2
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS$SERVICE_METRICS_TAB",
+      "segmentSize": 1
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METASCRIPTFILTER$",
+      "segmentSize": 0.875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROCEDUREINFO$",
+      "segmentSize": 0.875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_OPTSTAT_OPR_TASKS",
+      "segmentSize": 0.75
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SQLTEXT",
+      "segmentSize": 0.5625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KOTMD$",
+      "segmentSize": 0.5
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_MEM_DYNAMIC_COMP",
+      "segmentSize": 0.5
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PLSCOPE_ACTION$",
+      "segmentSize": 0.5
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METANAMETRANS$",
+      "segmentSize": 0.4375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LIBRARYCACHE",
+      "segmentSize": 0.4375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_RESOURCE_LIMIT",
+      "segmentSize": 0.4375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IOSTAT_DETAIL",
+      "segmentSize": 0.4375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PARAMETER_NAME",
+      "segmentSize": 0.375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SHARED_POOL_ADVICE",
+      "segmentSize": 0.375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_MUTEX_SLEEP",
+      "segmentSize": 0.375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METAFILTER$",
+      "segmentSize": 0.375
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KOTTBX$",
+      "segmentSize": 0.375
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ELEMENT",
+      "segmentSize": 0.3125
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$H_INDEX",
+      "segmentSize": 0.3125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OBJAUTH$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPTSTAT_SNAPSHOT$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CON$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PGASTAT",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_UNDOSTAT",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IOSTAT_FUNCTION",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IOSTAT_FILETYPE",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "DBSNMP",
+      "segmentName": "BSLN_STATISTICS",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_RSRC_PLAN",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SQL_BIND_METADATA",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_EVENT_NAME",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PGA_TARGET_ADVICE",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_TABLESPACE_SPACE_USAGE",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COL_GROUP_USAGE$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COL_USAGE$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYN$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROCEDUREPLSQL$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MON_MODS$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MON_MODS_ALL$",
+      "segmentSize": 0.25
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SEG_STAT_OBJ",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PLSCOPE_IDENTIFIER$",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DEFAULT_PWD$",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OID$",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "VTABLE$",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDPART$",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_EMX_FILES",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_TASKS",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_DBU_FEATURE_METADATA",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SQL_WORKAREA_HISTOGRAM",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_MEMORY_TARGET_ADVICE",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_JAVA_POOL_ADVICE",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_STAT_NAME",
+      "segmentSize": 0.1875
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LOG",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SGA_TARGET_ADVICE",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_RSRC_METRIC",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$COMPLEX_TYPE",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$SEQUENCE_MODEL",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ATTRIBUTE",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROCEDURE$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WARNING_SETTINGS$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_OPTSTAT_TAB_HISTORY",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_OPTSTAT_IND_HISTORY",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXP_HEAD$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXP_STAT$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TABPART$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METAXSLPARAM$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METASTYLESHEET",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METASCRIPT$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METAPATHMAP$",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_EXECUTIONS",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_OBJECTS",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_FINDINGS",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_MESSAGE_GROUPS",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_ADDM_TASKS",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_ADDM_INST",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LATCH_NAME",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CHANNEL_WAITS",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_BUFFER_POOL_STATISTICS",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SGA",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PROCESS_MEMORY_SUMMARY",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_RSRC_CONSUMER_GROUP",
+      "segmentSize": 0.125
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FILE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROXY_DATA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "BOOTSTRAP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROXY_ROLE_DATA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UNDO$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OBJERROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FIXED_OBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TAB_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IND_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OBJECT_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PARTOBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DEFERRED_STG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "USERAUTH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UGROUP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TYPED_VIEW$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUPEROBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SEQ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IDNSEQ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROPS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EDITION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "USER_EDITIONING$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MIGRATE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "VIEWCON$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DUAL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYSAUTH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OBJPRIV$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DEFROLE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDB_LOCAL_ADMINAUTH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ECOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EV$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EVCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLERROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CONTAINER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDB_FILE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_HISTORY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CONDATA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ADMINAUTH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_ALERT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_INV_TYPE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_SPFILE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDBSTATE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDBVW_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UNDOHIST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_SYNC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_SYNC_STMT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOCKDOWN_PROF$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "VIEW_PDB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROXY_REMOTE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDB_TS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_STAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_SVC_STATE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDB_PROPS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IMSVC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IMSVCTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IMORDERBY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_CREATE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$APPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$PATCHES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$VERSIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$STATEMENT$ERRORS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$APP$STATUS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$BINDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$EDITIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FED$DEPENDENCY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SENSITIVE_FIXED$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_SNAPSHOT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CONNECTION_TESTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_SNAPSHOTFILE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SESS_CNT_HISTORY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LINK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRUSTED_LIST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DUC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RECYCLEBIN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IND_ONLINE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CONTEXT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL_VERSION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "JIJOIN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "JIREFRESHSQL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRIGGER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRIGGERCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRIGGERJAVAF$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRIGGERJAVAS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRIGGERJAVAC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRIGGERJAVAM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRIGGERDEP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDREBUILD$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRANSIENT_IOT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLTXL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLTXL_SQL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLTXL_ERR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLSTKEY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLSTDIMENSION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLSTJOIN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDEX_ORPHANED_ENTRY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ONLINE_HIDDEN_FRAGS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COMPRESSION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SMB$CONFIG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL$TEXT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLOBJ$PLAN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLOBJ$AUXDATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ERROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NCOMP_DLL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROCEDUREJAVA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROCEDUREC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIANA_VERSION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PLSCOPE_SQL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PLSCOPE_STATEMENT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PENDING_TRANS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PENDING_SESSIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PENDING_SUB_SESSIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MAP_FILE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MAP_FILE_EXTENT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MAP_SUBELEMENT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MAP_ELEMENT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MAP_EXTELEMENT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MAP_COMPLIST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROFILE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROFNAME$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_COST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "JOB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "USER_ASTATUS_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_PLAN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_CONSUMER_GROUP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_CATEGORY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_PLAN_DIRECTIVE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_GROUP_MAPPING$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_MAPPING_PRIORITY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_STORAGE_POOL_MAPPING$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_CAPABILITY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_INSTANCE_CAPABILITY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RESOURCE_IO_CALIBRATE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDB_RESOURCE_PLAN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDB_RESOURCE_PLAN_DIRECTIVE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSM_SRC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSM_DST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SERVICE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXP_SERVICE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CDB_SERVICE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$MIGRATE_OPERATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$SERVICE_OPERATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$ESCALATE_OPERATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$QUIESCE_OPERATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$INSTANCE_ACTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$RESONATE_OPERATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$ALERT_HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$REASON_STRINGS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$DATABASE_ATTRIBUTES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$VICTIM_POLICY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$NODE_ATTRIBUTES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$SERVICE_ATTRIBUTES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SVCOBJ_ACCESS_ATTR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CODEAUTH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "_default_auditing_options_",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUDIT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUD_POLICY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUD_OBJECT_OPT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUDIT_NG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUD_CONTEXT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYSTEM_PRIVILEGE_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TABLE_PRIVILEGE_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "USER_PRIVILEGE_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STMT_AUDIT_OPTION_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "USER_HISTORY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RLS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RLS_SC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RLS_GRP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RLS_CTX$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RLS_CSA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RADM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RADM_MC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RADM_PE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RADM_FPTM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RADM_FPTM_LOB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RADM_TD$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RADM_CD$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUD$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGACOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGA_LOG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPROLE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ENC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROXY_INFO$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PROXY_ROLE_INFO$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$VERIFIERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSDB$SCHEMA_ACL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ACLMV$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ACLMVSUBTBL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ACLMVREFSTAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ACLMV$_REFLOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DAM_PARAM_TAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DAM_CONFIG_PARAM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DAM_LAST_ARCH_TS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DAM_CLEANUP_JOBS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DAM_CLEANUP_EVENTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_SENSITIVE_DATA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUX_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CACHE_STATS_1$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CACHE_STATS_0$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ASSOCIATION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "USTATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STATS_TARGET$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "OUTLN",
+      "segmentName": "OL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "OUTLN",
+      "segmentName": "OL$HINTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "OUTLN",
+      "segmentName": "OL$NODES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_OPTSTAT_AUX_HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_OPTSTAT_OPR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPTSTAT_HIST_CONTROL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPTSTAT_USER_PREFS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPT_FINDING$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPT_FINDING_OBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPT_DIRECTIVE_OWN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPT_DIRECTIVE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPT_CALIBRATION_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXP_OBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ID_GENS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TYPEHIERARCHY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KOTADX$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KOPM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPBINDING$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPANCILLARY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPARG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPERATOR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDTYPES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDOP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDARRAYTYPE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SECOBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "JAVAOBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "JAVASNM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PARTCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUBPARTCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TABSUBPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDSUBPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TABCOMPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDCOMPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PARTLOB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOBFRAG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOBCOMPPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DEFSUBPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DEFSUBPARTLOB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INDPART_PARAM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INSERT_TSN_LIST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMPARTLOG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMDELTA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_LOGDEP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_LOADERTIME$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_XCMT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_REFTIME$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MLOG_REFCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_REFOP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_COLMAP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_OBJCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REG_SNAP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SNAP_SITE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_SPLIT_MERGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_CAPTURE_SERVER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_CAPTURE_PROCESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_APPLY_PROCESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_PROPAGATION_PROCESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_PROCESS_PARAMS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_EXTRA_ATTRS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_PREPARE_OBJECT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_PREPARE_DDL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_APPLY_MILESTONE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_APPLY_PROGRESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_KEY_COLUMNS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_DEF_PROC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_RULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_SOURCE_OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_SOURCE_SCHEMA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_VIRTUAL_OBJ_CONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_CONSTRAINT_COLUMNS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_DEST_OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_DEST_OBJ_CMAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_DEST_OBJ_OPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_STMT_HANDLERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_STMT_HANDLER_STMTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_CHANGE_HANDLERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_ERROR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_ERROR_HANDLER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_CONF_HDLR_COLUMNS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_TABLE_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_PROCEDURE_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_COORDINATOR_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_SERVER_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_READER_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_BATCH_SQL_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_CDR_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_AUTO_CDR_COLUMN_GROUPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_DEST_OBJS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_DEST_OBJ_COLS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_PRIVILEGED_USER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_MESSAGE_RULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_MESSAGE_CONSUMERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_APPLY_SPILL_TXN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_APPLY_SPILL_TXN_LIST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGR$_FILE_GROUPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGR$_FILE_GROUP_VERSIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGR$_FILE_GROUP_EXPORT_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGR$_FILE_GROUP_FILES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGR$_TABLESPACE_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGR$_TABLE_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULESET$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RECO_SCRIPT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RECO_SCRIPT_PARAMS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RECO_SCRIPT_BLOCK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RECO_SCRIPT_ERROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COMPARISON$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COMPARISON_COL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COMPARISON_SCAN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COMPARISON_SCAN_VAL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COMPARISON_ROW_DIF$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_COMPONENT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_COMPONENT_LINK",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_COMPONENT_PROP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_DATABASE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_SERVER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_SUBSET_RULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_SYSGEN_OBJS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_DML_CONFLICT_HANDLER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_DML_CONFLICT_COLUMNS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_REPERROR_HANDLER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_HANDLE_COLLISIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_SERVER_CONNECTION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_DDL_CONFLICT_HANDLER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "GOLDENGATE$_PRIVILEGES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XSTREAM$_PRIVILEGES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REPL$_DBNAME_MAPPING",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RMTAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REPL$_PROCESS_EVENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "GOLDENGATE$_CONTAINER_RULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AW$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AW_OBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AW_PROP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AW_TRACK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AW_PRG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MAPPINGS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MODELS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MODEL_PARENTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MODEL_ASSIGNMENTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_CALCULATED_MEMBERS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_SYNTAX$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_DESCRIPTIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_CUBE_BUILD_PROCESSES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_AW_VIEWS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_AW_VIEW_COLUMNS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MEASURE_FOLDERS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MEAS_FOLDER_CONTENTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_AW_DEPLOYMENT_CONTROLS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_IMPL_OPTIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MULTI_OPTIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_METADATA_DEPENDENCIES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_CUBE_DIMENSIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_DIM_LEVELS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_ATTRIBUTES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_ATTRIBUTE_VISIBILITY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_HIERARCHIES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_HIER_LEVELS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_CUBES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_MEASURES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_DIMENSIONALITY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_TAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_TAB_COL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_TAB_HIER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OLAP_METADATA_PROPERTIES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMDETAIL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMINLINE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMKEY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMAGG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMJOIN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMDEP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMPRED$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SUMQB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HIER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HIERLEVEL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIMLEVEL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIMLEVELKEY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIMJOINKEY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DIMATTR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_GROUPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_TABLE_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_OBJECTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_PARTN_OPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_GROUP_STATUS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_OBJECT_STATUS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_STEP_STATUS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_LOG_EXCEPTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_ER_REFGRPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_SOFT_ERRORS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYNCREF$_STLOG_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REDEF$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REDEF_OBJECT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REDEF_OBJECT_BACKUP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REDEF_DEP_ERROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REDEF_STATUS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REDEF_TRACK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MV_REFRESH_USAGE_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PTT_FEATURE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INCEXP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INCVID",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INCFIL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXPACT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NOEXP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXPPKGOBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXPPKGACT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXPDEPOBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXPDEPACT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXPIMP_TTS_CT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METAVIEW$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METAXSL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METAXSLPARAMDESC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IMPCALLOUTREG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "METAAUDIT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXTERNAL_TAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXTERNAL_LOCATION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODEL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODELTAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODELATT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODELSET$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODELPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODELPARTCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODELXFM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MODELALG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_SESSION_EVOLVE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_GLOBAL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_PDB_INFO$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_DID$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_UID$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNRGGC_GTLO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNRGGC_GTCS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNR_BUILDLOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNRC_DBNAME_UID_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_LOG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_PROCESSED_LOG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_SPILL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_AGE_SPILL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_RESTART_CKPT_TXINFO$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_ERROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_RESTART_CKPT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_FILTER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_SESSION_ACTIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_PARAMETER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_SESSION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_PROFILE_TABLE_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGMNR_PROFILE_PLSQL_STATS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_SEED$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_SEED2$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_DICTIONARY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_OBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_TAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_COL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_ATTRCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_TS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_IND$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_USER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_TABPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_TABSUBPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_TABCOMPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_TYPE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_COLTYPE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_ATTRIBUTE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_LOB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_CON$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_CONTAINER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_CDEF$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_CCOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_ICOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_LOBFRAG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_INDPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_INDSUBPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_INDCOMPART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_LOGMNR_BUILDLOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_NTAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_OPQTYPE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_SUBCOLTYPE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_KOPM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_PROPS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_ENC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_REFCON$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_IDNSEQ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_PARTOBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOGMNRG_SHARD_TS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DST$AFFECTED_TABLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DST$ERROR_TABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DST$TRIGGER_TABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_FA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_TSFA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_TRACKEDTABLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_PARTITIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_USERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_BARRIERSCN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_DL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_CONTEXT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_CONTEXT_AUD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_CONTEXT_LIST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_APP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_APP_TABLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_COLS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_FBA_PERIOD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "REDO_DB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "REDO_LOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$CONNECTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$DATABASES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$DIRECTIVES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$EVENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$PLAN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$STATISTICS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "ROLLING$STATUS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLI_LOG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLI_TAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLI_INST$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLI_PART$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CLI_TS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$SCHEMAS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$LOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$UPG_SUMMARY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$ERROR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$PROGRESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$DEPENDENCIES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$DATABASE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$UPG_RESUME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$BACKPORTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRANSFORMATIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ATTRIBUTE_TRANSFORMATIONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NEW_LOST_WRITE_DATAFILES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NEW_LOST_WRITE_EXTENTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NEW_LOST_WRITE_SHADOWS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_DIM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_DIM_ATTR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_DIM_LVL_KEY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_DIM_LVL_KEY_ATTR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_DIM_DTM_ATTR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_DIM_LVL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_LVL_ORD$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_HIERARCHY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_HR_LVL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_HR_LVL_ID$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_HIER_ATTR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_HIER_COL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_ANALYTIC_VIEW$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_KEY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_DIM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_MEAS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_HIER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_COL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_LVL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_LVLGRP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_LVLGRP_LVLS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_MEASLST_MEASURES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_CLSFCTN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_AV_CLSFCTN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_SRC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_SRC_COL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_DIM_JOIN_PATH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_JOIN_COND_ELEM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HCS_HIER_JOIN_PATH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AV_DUAL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUDIT_ACTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UNIFIED_MISC_AUDITED_ACTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ALL_UNIFIED_AUDIT_ACTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_WORKLOAD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_BASETABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_SQLDEPEND",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_PRETTY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_TEMP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_FILTER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_LOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_FILTERINSTANCE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_LEVEL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_ROLLUP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_AJG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_FJG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_GC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_CLIQUE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_ELIGIBLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_OUTPUT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_EXCEPTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_JOURNAL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "MVIEW$_ADV_PLAN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COMPRESSION_STAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILMPOLICY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILMOBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_EXECUTION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_EXECUTIONDETAILS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_RESULTS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_PARAM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_RESULT_STAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_DEPENDANT_OBJ$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_DEP_EXECUTIONDETAILS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ILM_CONCURRENCY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HEAT_MAP_STAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HEAT_MAP_EXTENT_STAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "COLUMN_STAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ADO_IMSEGSTAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ADO_IMSTAT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ADO_IMTASKS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ADO_IMSEGTASKDETAILS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ADO_IMPARAM$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SEGADV_ATTRIB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SEGADV_OBJLIST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SEGADV_CNTRLTAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_HEATMAP_TOP_OBJECTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_HEATMAP_TOP_TABLESPACES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_TOPN_METADATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_REPT_COMPONENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_REPT_REPORTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_REPT_FORMATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRP$_REPORTS_CONTROL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_SOURCE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_SENSITIVE_TYPE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_POLICY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_SUBPOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_CONDITION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_PARAMETER$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_ASSOCIATION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_PROTECTION$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_FEATURE_POLICY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TSDP_ERROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBA_SENSITIVE_DATA_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBA_TSDP_POLICY_PROTECTION_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRANSACTION_BACKOUT_STATE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "TRANSACTION_BACKOUT_REPORT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UTL_RECOMP_SORTED",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UTL_RECOMP_COMPILED",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UTL_RECOMP_ERRORS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UTL_RECOMP_SKIP_LIST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_IEUAC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_MAP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_EC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REC_TAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REC_VAR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_EE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_TE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_VE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_RE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_ROR$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_FOB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_NL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_7958",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RULE_SET_RDEP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_7964",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_7968",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_7971",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "FGA_LOG$FOR_EXPORT_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AUDTAB$TBS$FOR_EXPORT_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "INVALIDATION_REGISTRY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_8177",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CHNF$_CLAUSE_DEPENDENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CHNF$_QUERY_OBJECT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CHNF$_REG_QUERIES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CHNF$_QUERIES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CHNF$_QUERY_BINDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_8212",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CHNF$_QUERY_DEPENDENCIES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CHNFDIRECTLOAD$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CPOOL$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SSCR_CAP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SSCR_RES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LOC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "AQ$_QUEUE_TABLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "AQ$_KEY_SHARD_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "AQ$_QUEUES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_REPLAY_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_QUEUE_TABLE_AFFINITIES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SUBSCRIBER_TABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "AQ$_SCHEDULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SCHEDULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_MESSAGE_TYPES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_PROPAGATION_STATUS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_PENDING_MESSAGES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_QUEUE_STATISTICS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_PUBLISHER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "AQ$_INTERNET_AGENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "AQ$_INTERNET_AGENT_PRIVS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_QUEUE_SHARDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_QUEUE_PARTITION_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_DEQUEUE_LOG_PARTITION_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_E_QUEUE_PARTITION_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_DURABLE_SUBS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_QUEUE_PARAMS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SHARD_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_8674",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_DEFINITIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_DEF_PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_DEF_EXEC_TYPES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_EXEC_PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_INST_FDG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_RECOMMENDATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_ACTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_RATIONALE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_REC_ACTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_DIRECTIVE_DEFS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_DIRECTIVE_META",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_DIRECTIVE_INSTANCES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_JOURNAL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLT_PLAN_HASH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLT_PLAN_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLT_PLANS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_ADDM_FDG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_ADDM_TODO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_AI_COL_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_DBMSJOB_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_PROGRAM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_CLASS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_JOB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_SAVED_OIDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_LWJOB_OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_LIGHTWEIGHT_JOB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_JOB_ARGUMENT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_WINDOW",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_PROGRAM_ARGUMENT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_SRCQ_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_SRCQ_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_EVTQ_SUB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_EVENT_LOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_JOB_RUN_DETAILS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_JOB_OUTPUT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_JOB_OUT_ARGS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_WINDOW_DETAILS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_WINDOW_GROUP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_WINGRP_MEMBER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_SCHEDULE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_CHAIN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_STEP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_STEP_STATE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_GLOBAL_ATTRIBUTE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_CREDENTIAL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_RJOB_SRC_DB_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_REMOTE_DBS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_REMOTE_JOB_STATE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_FILE_WATCHER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_FILEWATCHER_HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_FILEWATCHER_RESEND",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_NOTIFICATION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_DESTINATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_JOB_DESTINATIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_RESOURCES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_CONSTRAINTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_CONSTRAINTS_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_LISTENERADDRESSES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KU_UTLUSE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KU$_USER_MAPPING_VIEW_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KU_NOEXP_TAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CRC$_RESULT_CACHE_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_DBU_FEATURE_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_DBU_HIGH_WATER_MARK",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_DBU_HWM_METADATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_DBU_USAGE_SAMPLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_DBU_CPU_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_DBU_CPU_USAGE_SAMPLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ALERT_OUTSTANDING",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ALERT_HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ALERT_THRESHOLD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ALERT_THRESHOLD_LOG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KET$_AUTOTASK_STATUS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KET$_CLIENT_CONFIG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "KET$_CLIENT_TASKS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ATSK$_SCHEDULE_CONTROL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_TRACING_ENABLED",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_AGGREGATION_ENABLED",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLT_BINDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLT_STATISTICS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLT_RTN_PLAN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_DEFINITIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_REFERENCES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_STATEMENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_PLANS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_STATISTICS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_MASK",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_PLAN_LINES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_BINDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_WORKSPACE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLSET_WORKSPACE_PLANS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLMON_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_INDEX_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UMF$_TOPOLOGY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UMF$_REGISTRATION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UMF$_LINK",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UMF$_SERVICE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL$_DATAPUMP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL$TEXT_DATAPUMP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLOBJ$_DATAPUMP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLOBJ$PLAN_DATAPUMP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLOBJ$DATA_DATAPUMP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQLOBJ$AUXDATA_DATAPUMP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_FILTERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_BUCKETS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_UC_GRAPH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_FILES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_SQL_TMP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_SQLTEXT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_LONG_SQLTEXT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_SCHEMA_INFO_TMP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_SCHEMA_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAYS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_DIV_SUMMARY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_DIVERGENCE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_UC_GRAPH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_COMMIT_FIRST_CALL_SCN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_CALL_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_ASREPLAY_DATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_SEQ_DATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_DATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CONNECTION_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_USER_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_SQL_TEXT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_SQL_BINDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_SEQUENCE_EXCEPTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_COMPONENT_TIMING",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_CALL_FILTER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_FILTER_SET",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_DEP_GRAPH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_COMMITS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_REFERENCES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_DIRECTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_SCHEDULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_SCHEDULE_CAPTURES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_SCHEDULE_ORDERING",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_FILE_ID_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_WORKLOAD_GROUPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_LOGIN_QUEUE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_CONN_DATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_CAPTURE_FILE_DETAILS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_FILES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_INSTANCES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_GROUP_ASSIGNMENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_WORKLOAD_SESSIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_WORKLOAD_EX_OBJECTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_CLIENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_TRACKED_COMMITS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_REPLAY_SQL_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_JOB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_TEMPLATE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_STATEMENT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_OBJECT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_CAPTURE_FILE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_EXECUTION_ORDER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_FREQUENT_PATTERN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_FREQUENT_PATTERN_ITEM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WI$_FREQUENT_PATTERN_METADATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLW_SUM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLW_STMTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLW_TABLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLW_TABVOL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLW_COLVOL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_SUM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_STMTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_TABLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_TABVOL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_COLVOL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_TMP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_ADV_SQLA_FAKE_REG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBMS_PARALLEL_EXECUTE_TASK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBMS_PARALLEL_EXECUTE_CHUNKS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS$_STORES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS$_MOUNTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS$_CLIENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS$_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_SFS$_TAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_SFS$_VOL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_SFS$_SNAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_SFS$_FS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_SFS$_FST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_SFS$_FSTP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_SFS$_FSTO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_FS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_PROPERTY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_SFLOCATORTABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_BACKUPFILETABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_CONTENTFNMAPTBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_STORECOMMANDS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_STOREID2POLICYCTX",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_STOREPROPERTIES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBFS_HS$_STOREIDTABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$WORKSPACE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$TENANT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$PRIN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ROLE_GRANT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$PROXY_ROLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$SECCLS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$SECCLS_H",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$PRIV",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$AGGR_PRIV",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ACL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ACE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ACE_PRIV",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$DSEC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$POLICY_PARAM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ACL_PARAM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ATTR_SEC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$INSTSET_LIST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$INSTSET_RULE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$INSTSET_ACL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$INSTSET_INH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$INSTSET_INH_KEY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$OLAP_POLICY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ROLESET",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$ROLESET_ROLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$NSTMPL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$NSTMPL_ATTR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RXS$SESSIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RXS$SESSION_ROLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RXS$SESSION_APPNS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$CACHE_ACTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "XS$CACHE_DELETE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NACL$_HOST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NACL$_WALLET",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NACL$_NAME_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PRIV_CAPTURE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CAPTURE_RUN_LOG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CAPTURED_PRIV$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PRIV_USED_PATH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PRIV_UNUSED$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PRIV_UNUSED_PATH$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "UNUSED_GRANT$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_MASKING_DEFINITION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_MASKING_PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_STS_GRANULES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_STS_SENSITIVE_SQL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_MASKING_SCRIPT_PROGRESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_STS_MASKING_STEP_PROGRESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_MASKING_FILE_PROGRESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRR$_MASKING_BIND_CACHE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_STS_MASKING_ERRORS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_STS_MASKING_EXCEPTIONS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPATCH_XINV_TAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPATCH_INST_JOB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPATCH_INST_PATCH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OPATCH_SQL_PATCHES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HANG_MANAGER_PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MVREF$_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MVREF$_RUN_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MVREF$_CHANGE_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MVREF$_STMT_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MVREF$_STATS_SYS_DEFAULTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "MVREF$_STATS_PARAMS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LINK_SOURCES$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "LINK_LOGONS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EXTERNAL_SCN_ACTIVITY$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IM_JOINGROUP$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IM_DOMAIN$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYSDBIMFS_METADATA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYSDBIMFSSEG$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYSDBIMFS$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYSDBIMFSDBA$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "IM_IME$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_FILESTATXS_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_TEMPSTATXS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_DATAFILE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_TEMPFILE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_COMP_IOSTAT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IOSTAT_FUNCTION_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IOSTAT_FILETYPE_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SQLSTAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SQLTEXT_REFCOUNT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SQL_SUMMARY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_OPTIMIZER_ENV",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SYSTEM_EVENT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CON_SYSTEM_EVENT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_WAITSTAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LATCH_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LATCH_CHILDREN_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LATCH_PARENT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LATCH_MISSES_SUMMARY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_EVENT_HISTOGRAM_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_DB_CACHE_ADVICE_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_ROWCACHE_SUMMARY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SGASTAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_STREAMS_POOL_ADVICE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_MEMORY_RESIZE_OPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_INSTANCE_RECOVERY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_RECOVERY_PROGRESS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_THREAD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SYSSTAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CON_SYSSTAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IM_SEG_STAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IM_SEG_STAT_OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SYS_TIME_MODEL_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CON_SYS_TIME_MODEL_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_OSSTAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PARAMETER_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_MVPARAMETER_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_OSSTAT_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PLAN_OPERATION_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PLAN_OPTION_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SQLCOMMAND_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_TOPLEVELCALL_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SEG_STAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_METRIC_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SYSMETRIC_HISTORY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CON_SYSMETRIC_HISTORY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SESSMETRIC_HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_FILEMETRIC_HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_WAITCLASSMETRIC_HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_DLM_MISC_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CR_BLOCK_SERVER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CURRENT_BLOCK_SERVER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_INST_CACHE_TRANSFER_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_ACTIVE_SESSION_HISTORY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_TABLESPACE_STAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_MTTR_TARGET_ADVICE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_TABLESPACE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SERVICE_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SERVICE_STAT_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SERVICE_WAIT_CLASS_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SESS_TIME_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_STREAMS_CAPTURE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_STREAMS_APPLY_SUM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_BUFFERED_QUEUES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_BUFFERED_SUBSCRIBERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PERSISTENT_QUEUES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PERSISTENT_SUBSCRIBERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_RULE_SET",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SESS_SGA_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_REPLICATION_TBL_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_REPLICATION_TXN_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_CONFIG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_CONFIG_DETAIL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_ASM_DISKGROUP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_ASM_DISKGROUP_STAT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_ASM_BAD_DISK",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_GLOBAL_SUMMARY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_DISK_SUMMARY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_METRIC_DESC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_GLOBAL_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_IOREASON_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_IOREASON_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_DB_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CELL_OPEN_ALERTS_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SCH_CONTROL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_SCH_VOTES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_RSRC_PDB_METRIC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_CLUSTER_INTERCON",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IC_DEVICE_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_IC_CLIENT_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_INTERCONNECT_PINGS_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_DISPATCHER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SHARED_SERVER_SUMMARY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_DYN_REMASTER_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_LMS_STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PERSISTENT_QMN_CACHE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_ASM_DISK_STAT_SUMMARY_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_WR_USAGE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_DATABASE_INSTANCE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_SNAPSHOT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_SNAP_ERROR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_BASELINE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_COLORED_SQL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_BASELINE_DETAILS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_BASELINE_TEMPLATE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_PDB_INSTANCE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_PDB_IN_SNAP_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_ACTIVE_PDBS_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_WR_SETTINGS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_TABLE_DEFAULT_SETTINGS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_TABLE_SETTINGS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRM$_WR_CONTROL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_PROCESS_WAITTIME_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_AWR_TEST_1_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRH$_SESS_NETWORK_BL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRW$_WAREHOUSE_CONFIG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRWS$_WAREHOUSE_REGISTRATION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRWC$_EXP_CONTROL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRW$_CLIENT_MAILPKG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRW$_SERVER_MAILPKG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRW$_CLIENT_DELIVERY_SVC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "SCHEDULER_PROGRAM_ARGS_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "SCHEDULER_JOB_ARGS_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL_TK_COLL_CHK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL_TK_ROW_CHK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL_TK_REF_CHK$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SQL_TK_TAB_DESC$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OFSMTAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OFSOTAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OFSDTAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "OFSFTAB$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "BDSQL_USER_MAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_OPTSTAT_SYNOPSIS_PARTGRP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRI$_OPTSTAT_SYNOPSIS_HEAD$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$PARAMETERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$EVENTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$APPLY_MILESTONE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$SCN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$FLASHBACK_SCN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$PLSQL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$SKIP_TRANSACTION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$SKIP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$SKIP_SUPPORT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$HISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYSTEM",
+      "segmentName": "LOGSTDBY$EDS_TABLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "GG$_SUPPORTED_PACKAGES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "GG$_PROCEDURE_ANNOTATION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "GG$_PROC_OBJECT_EXCLUSION",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "GG$_PACKAGE_MAPPING",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_APPLY_SPILL_MESSAGES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "APPLY$_ERROR_TXN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "STREAMS$_INTERNAL_TRANSFORM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NACL$_HOST_EXP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NACL$_WALLET_EXP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "NACL$_ACE_EXP_TBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBMS_LOCK_ALLOCATED",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBMS_ALERT_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_EVENT_QTAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SCHEDULER$_EVENT_QTAB_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SCHEDULER$_EVENT_QTAB_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_19655",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER$_REMDB_JOBQTAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SCHEDULER$_REMDB_JOBQTAB_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SCHEDULER$_REMDB_JOBQTAB_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_19689",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SCHEDULER_FILEWATCHER_QT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SCHEDULER_FILEWATCHER_QT_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SCHEDULER_FILEWATCHER_QT_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_19719",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ALERT_QT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_ALERT_QT_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_ALERT_QT_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_19774",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCDI",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCDI2",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCIC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCPDB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCPDBINC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCFE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCFN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCVDF",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCTF",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCVFH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCVFHTMP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCVFHALL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCRT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCSL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCTIR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCOR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCLH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCAL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCBS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCBP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCBF",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCBL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCBI",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCDC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCPD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCPA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCPIC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCBLKCOR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCCC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCFC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCRSR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "RPP$X$KCCTKH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ROPP$X$KCCSDM",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ROPP$X$KCCFHXCP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ROPP$X$PDBHISTORY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "ORA$PREPLUGIN_BACKUP_QTB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_ORA$PREPLUGIN_BACKUP_QTB_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_ORA$PREPLUGIN_BACKUP_QTB_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_20075",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_FDS_CLASS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_FDS_INST",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_BASE_CAPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_CLASS_CAPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_INST_CAPS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_BASE_DD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_CLASS_DD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_INST_DD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_CLASS_INIT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_INST_INIT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_FDS_CLASS_DATE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS_BULKLOAD_VIEW_OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_PARALLEL_METADATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_PARALLEL_PARTITION_DATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_PARALLEL_HISTOGRAM_DATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "HS$_PARALLEL_SAMPLE_DATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_MEM_MC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_AQ$_MEM_MC_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_AQ$_MEM_MC_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_20295",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ_EVENT_TABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ_PROP_TABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_AQ_PROP_TABLE_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_AQ_PROP_TABLE_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_20331",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "CQN_EVENT_TABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRMS$_SNAPSHOT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_STAT_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_PARAMETER_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_EVENT_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_LATCH_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_DATAFILE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_TEMPFILE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_SQLTEXT",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_SQL_PLAN",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_SEG_STAT_OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_SERVICE_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_METRIC_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_SQL_BIND_METADATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_OSSTAT_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_OPTIMIZER_ENV",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_IOSTAT_FUNCTION_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_IOSTAT_FILETYPE_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_PLAN_OPERATION_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_PLAN_OPTION_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_SQLCOMMAND_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_TOPLEVELCALL_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_TABLESPACE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_CELL_METRIC_DESC",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_CELL_IOREASON_NAME",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "WRHS$_IM_SEG_STAT_OBJ",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SYS$SERVICE_METRICS_TAB_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_SYS$SERVICE_METRICS_TAB_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_20664",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "DBSNMP",
+      "segmentName": "BSLN_METRIC_DEFAULTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "DBSNMP",
+      "segmentName": "BSLN_BASELINES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "PDB_MON_EVENT_QTABLE$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_PDB_MON_EVENT_QTABLE$_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ$_PDB_MON_EVENT_QTABLE$_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "SYS_IOT_OVER_20833",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DDL_REQUESTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DDL_REQUESTS_PWD",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "GSMADMIN_INTERNAL",
+      "segmentName": "SHARD_TS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "GSMADMIN_INTERNAL",
+      "segmentName": "DDLID$",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "GSMADMIN_INTERNAL",
+      "segmentName": "CHANGE_LOG_QUEUE_TABLE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "GSMADMIN_INTERNAL",
+      "segmentName": "AQ$_CHANGE_LOG_QUEUE_TABLE_S",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "GSMADMIN_INTERNAL",
+      "segmentName": "AQ$_CHANGE_LOG_QUEUE_TABLE_L",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "GSMADMIN_INTERNAL",
+      "segmentName": "SYS_IOT_OVER_20975",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ROOT_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$XDB_READY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$CDBPORTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$IMPORT_TT_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$TSETMAP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$TTSET",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$H_LINK",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$D_LINK",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$COLUMN_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$SIMPLE_TYPE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ALL_MODEL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$CHOICE_MODEL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ANYATTR",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ANY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$GROUP_DEF",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$GROUP_REF",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ATTRGROUP_DEF",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ATTRGROUP_REF",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$SCHEMA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$RESOURCE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$NLOCKS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$PATH_INDEX_PARAMS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$IMPORT_QN_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$IMPORT_NM_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$IMPORT_PT_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "X$NM4I11KO2E4A8JMS7NRDBUJFFMHE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "X$QN4I11KO2E4A8JMS7NRDBUJFFMHE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "X$PT4I11KO2E4A8JMS7NRDBUJFFMHE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "APP_USERS_AND_ROLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "APP_ROLE_MEMBERSHIP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$ACL",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$RESCONFIG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$DBFS_VIRTUAL_FOLDER",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$CHECKOUTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$DXPTAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$XIDX_PART_TAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$XIDX_PARAM_T",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$XTAB",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$XTABNMSP",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$XTABCOLS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$STATS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$CONFIG",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$NONCEKEY",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$REPOS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB$MOUNTS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "JSON$COLLECTION_METADATA",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "JSON$USERS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "JSON$USER_CREDENTIALS",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "JSON$USER_ROLES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "XDB",
+      "segmentName": "XDB_INDEX_DDL_CACHE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$SQLPATCH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "REGISTRY$SQLPATCH_RU_INFO",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBMS_SQLPATCH_STATE",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "DBMS_SQLPATCH_FILES",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "EPG$_AUTH",
+      "segmentSize": 0.0625
+    },
+    {
+      "owner": "SYS",
+      "segmentName": "AQ_SRVNTFN_TABLE_1",
+      "segmentSize": 0.0625
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1",
+      "logonTime": "2021-09-16 20:53:30.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB6C7A38:1128735228",
+      "previousSqlId": "11yqmst1nf8gw",
+      "process": "6848",
+      "program": "ORACLE.EXE (GEN0)",
+      "serialNo": "58424",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "2",
+      "logonTime": "2021-09-16 20:53:35.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "4516",
+      "program": "ORACLE.EXE (SVCB)",
+      "serialNo": "24088",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "3",
+      "logonTime": "2021-09-16 20:53:40.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "2308",
+      "program": "ORACLE.EXE (LG00)",
+      "serialNo": "33521",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "4",
+      "logonTime": "2021-09-16 20:53:43.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBDE5F7E8:2850515371",
+      "previousSqlId": "dph2wc2nyfudb",
+      "process": "876",
+      "program": "ORACLE.EXE (LREG)",
+      "serialNo": "54889",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "5",
+      "logonTime": "2021-09-16 20:53:45.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "32",
+      "program": "ORACLE.EXE (TMON)",
+      "serialNo": "27110",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "7",
+      "logonTime": "2021-09-16 20:53:58.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB7E56780:2215257724",
+      "previousSqlId": "655vmvf20n9mw",
+      "process": "2660",
+      "program": "ORACLE.EXE (AQPC)",
+      "serialNo": "13456",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "8",
+      "logonTime": "2021-09-16 21:04:08.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB696850:3096556448",
+      "previousSqlId": "0kkhhb2w93cx0",
+      "process": "7080",
+      "program": "ORACLE.EXE (W007)",
+      "serialNo": "15394",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "10",
+      "logonTime": "2021-09-20 10:37:11.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB7492FB8:2682517964",
+      "previousSqlId": "3t921z6gy7yfc",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "61908",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "action": "QMON Slave",
+      "id": "11",
+      "logonTime": "2021-09-16 20:54:08.0",
+      "machine": "WN7A",
+      "module": "Streams",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB7C52328:2752715458",
+      "previousSqlId": "7vukkk6k166q2",
+      "process": "2912",
+      "program": "ORACLE.EXE (Q002)",
+      "serialNo": "28508",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "14",
+      "logonTime": "2021-09-20 10:37:43.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "64917",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "15",
+      "logonTime": "2021-09-20 10:37:43.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9CC3C68:3994612628",
+      "previousSqlId": "71xxt57r1jwwn",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "28841",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "130",
+      "logonTime": "2021-09-16 21:04:02.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB96FEBF8:984236156",
+      "previousSqlId": "2360z2hxanh3w",
+      "process": "7176",
+      "program": "ORACLE.EXE (W005)",
+      "serialNo": "39856",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "131",
+      "logonTime": "2021-09-16 20:53:31.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "6540",
+      "program": "ORACLE.EXE (MMAN)",
+      "serialNo": "58093",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "132",
+      "logonTime": "2021-09-16 20:53:36.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "6064",
+      "program": "ORACLE.EXE (PMAN)",
+      "serialNo": "8599",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "133",
+      "logonTime": "2021-09-16 20:53:40.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB9A9B88:4052085454",
+      "previousSqlId": "chsyr0gssbuqf",
+      "process": "1652",
+      "program": "ORACLE.EXE (SMON)",
+      "serialNo": "4959",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "134",
+      "logonTime": "2021-09-16 20:53:43.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB96FEBF8:984236156",
+      "previousSqlId": "2360z2hxanh3w",
+      "process": "1176",
+      "program": "ORACLE.EXE (W001)",
+      "serialNo": "32369",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "136",
+      "logonTime": "2021-09-16 21:04:11.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB97E4BF8:3723762111",
+      "previousSqlId": "9x2prazfz86dz",
+      "process": "5744",
+      "program": "ORACLE.EXE (W008)",
+      "serialNo": "9315",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "137",
+      "logonTime": "2021-09-16 20:53:55.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "7540",
+      "program": "ORACLE.EXE (TT00)",
+      "serialNo": "44480",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "138",
+      "logonTime": "2021-09-16 20:53:59.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "2304",
+      "program": "ORACLE.EXE (ARC3)",
+      "serialNo": "48131",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "139",
+      "logonTime": "2021-09-20 10:37:40.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB7492FB8:2682517964",
+      "previousSqlId": "3t921z6gy7yfc",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "25776",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "action": "QMON Slave",
+      "id": "141",
+      "logonTime": "2021-09-16 20:54:08.0",
+      "machine": "WN7A",
+      "module": "Streams",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB85BDD8:1023521005",
+      "previousSqlId": "cb21bacyh3c7d",
+      "process": "5972",
+      "program": "ORACLE.EXE (Q003)",
+      "serialNo": "42027",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "143",
+      "logonTime": "2021-09-20 10:37:44.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9F48628:3562519828",
+      "previousSqlId": "3zxt1jra5gg8n",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "55347",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "144",
+      "logonTime": "2021-09-20 10:37:46.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "3449",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "259",
+      "logonTime": "2021-09-16 20:53:27.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "2924",
+      "program": "ORACLE.EXE (PMON)",
+      "serialNo": "5509",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "260",
+      "logonTime": "2021-09-16 20:53:32.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "3132",
+      "program": "ORACLE.EXE (DIAG)",
+      "serialNo": "10099",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "261",
+      "logonTime": "2021-09-16 20:53:37.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "8132",
+      "program": "ORACLE.EXE (DIA0)",
+      "serialNo": "54219",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Coordinator",
+      "id": "262",
+      "logonTime": "2021-09-16 20:53:42.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "6228",
+      "program": "ORACLE.EXE (SMCO)",
+      "serialNo": "14750",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "263",
+      "logonTime": "2021-09-16 20:53:43.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "3996",
+      "program": "ORACLE.EXE (PXMN)",
+      "serialNo": "42729",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "264",
+      "logonTime": "2021-09-16 20:53:55.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "4240",
+      "program": "ORACLE.EXE (ARC0)",
+      "serialNo": "6985",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "266",
+      "logonTime": "2021-09-16 20:53:59.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB0D9D0B8:3081330222",
+      "previousSqlId": "3ws7wcfvukrjf",
+      "process": "5308",
+      "program": "ORACLE.EXE (CJQ0)",
+      "serialNo": "4359",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "269",
+      "logonTime": "2021-09-16 20:54:04.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB696850:3096556448",
+      "previousSqlId": "0kkhhb2w93cx0",
+      "process": "7564",
+      "program": "ORACLE.EXE (W003)",
+      "serialNo": "63442",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "270",
+      "logonTime": "2021-09-16 21:04:14.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB96FEBF8:984236156",
+      "previousSqlId": "2360z2hxanh3w",
+      "process": "3588",
+      "program": "ORACLE.EXE (W009)",
+      "serialNo": "44606",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KDILM background CLeaNup",
+      "id": "272",
+      "logonTime": "2021-09-16 20:54:16.0",
+      "machine": "WN7A",
+      "module": "MMON_SLAVE",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB7A31198:124107020",
+      "previousSqlId": "gjaap3w3qbf8c",
+      "process": "2640",
+      "program": "ORACLE.EXE (M001)",
+      "serialNo": "40851",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "274",
+      "logonTime": "2021-09-20 10:37:40.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "5046",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "275",
+      "logonTime": "2021-09-20 10:38:02.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "20221",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "388",
+      "logonTime": "2021-09-16 20:53:27.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "5764",
+      "program": "ORACLE.EXE (CLMN)",
+      "serialNo": "62382",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "389",
+      "logonTime": "2021-09-16 20:53:31.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "7232",
+      "program": "ORACLE.EXE (GEN1)",
+      "serialNo": "38491",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "390",
+      "logonTime": "2021-09-16 20:53:38.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "5248",
+      "program": "ORACLE.EXE (DBW0)",
+      "serialNo": "7703",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "391",
+      "logonTime": "2021-09-16 20:53:42.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "6628",
+      "program": "ORACLE.EXE (LG01)",
+      "serialNo": "37175",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KDILM background CLeaNup",
+      "id": "392",
+      "logonTime": "2021-09-19 18:05:12.0",
+      "machine": "WN7A",
+      "module": "MMON_SLAVE",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB7A31198:124107020",
+      "previousSqlId": "gjaap3w3qbf8c",
+      "process": "1252",
+      "program": "ORACLE.EXE (M000)",
+      "serialNo": "26270",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "394",
+      "logonTime": "2021-09-16 20:53:55.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "5052",
+      "program": "ORACLE.EXE (TT01)",
+      "serialNo": "62763",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "396",
+      "logonTime": "2021-09-16 20:53:59.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "6524",
+      "program": "ORACLE.EXE (TT02)",
+      "serialNo": "15944",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "399",
+      "logonTime": "2021-09-16 21:04:59.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB97E4BF8:3723762111",
+      "previousSqlId": "9x2prazfz86dz",
+      "process": "7812",
+      "program": "ORACLE.EXE (W00A)",
+      "serialNo": "42009",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "400",
+      "logonTime": "2021-09-16 20:54:07.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB696850:3096556448",
+      "previousSqlId": "0kkhhb2w93cx0",
+      "process": "4172",
+      "program": "ORACLE.EXE (W004)",
+      "serialNo": "55905",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KDILM background EXEcution",
+      "id": "401",
+      "logonTime": "2021-09-26 11:25:22.0",
+      "machine": "WN7A",
+      "module": "MMON_SLAVE",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB7A31198:124107020",
+      "previousSqlId": "gjaap3w3qbf8c",
+      "process": "428",
+      "program": "ORACLE.EXE (M002)",
+      "serialNo": "17761",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "402",
+      "logonTime": "2021-09-20 10:37:40.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "20843",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "action": "KDILM background CLeaNup",
+      "id": "403",
+      "logonTime": "2021-09-21 13:46:30.0",
+      "machine": "WN7A",
+      "module": "MMON_SLAVE",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB7A31198:124107020",
+      "previousSqlId": "gjaap3w3qbf8c",
+      "process": "5016",
+      "program": "ORACLE.EXE (M005)",
+      "serialNo": "10776",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "517",
+      "logonTime": "2021-09-16 20:53:27.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "6184",
+      "program": "ORACLE.EXE (PSP0)",
+      "serialNo": "38414",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "518",
+      "logonTime": "2021-09-16 20:53:33.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB5B880C8:1773323841",
+      "previousSqlId": "fqtzxh9nv5jk1",
+      "process": "2188",
+      "program": "ORACLE.EXE (DBRM)",
+      "serialNo": "41426",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "519",
+      "logonTime": "2021-09-16 20:53:39.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "2656",
+      "program": "ORACLE.EXE (LGWR)",
+      "serialNo": "28540",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "520",
+      "logonTime": "2021-09-16 20:53:43.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB7F29530:2886642122",
+      "previousSqlId": "1ptv0pqq0xafa",
+      "process": "5156",
+      "program": "ORACLE.EXE (RECO)",
+      "serialNo": "55766",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "521",
+      "logonTime": "2021-09-16 20:53:46.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBCDCBC20:2062960912",
+      "previousSqlId": "fvkynu9xgck8h",
+      "process": "7004",
+      "program": "ORACLE.EXE (MMON)",
+      "serialNo": "37815",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "523",
+      "logonTime": "2021-09-16 20:53:56.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "1552",
+      "program": "ORACLE.EXE (ARC1)",
+      "serialNo": "30451",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "525",
+      "logonTime": "2021-09-16 20:54:01.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB97E4BF8:3723762111",
+      "previousSqlId": "9x2prazfz86dz",
+      "process": "2428",
+      "program": "ORACLE.EXE (W002)",
+      "serialNo": "37965",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "527",
+      "logonTime": "2021-09-16 21:05:02.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB696850:3096556448",
+      "previousSqlId": "0kkhhb2w93cx0",
+      "process": "6072",
+      "program": "ORACLE.EXE (W00B)",
+      "serialNo": "37500",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "QMON Coordinator",
+      "id": "528",
+      "logonTime": "2021-09-16 20:54:08.0",
+      "machine": "WN7A",
+      "module": "Streams",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB516C40:2230961768",
+      "previousSqlId": "79w2cqu2gmjm8",
+      "process": "2508",
+      "program": "ORACLE.EXE (QM02)",
+      "serialNo": "4818",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "532",
+      "logonTime": "2021-09-20 10:37:41.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "38746",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "533",
+      "logonTime": "2021-09-20 10:37:43.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "11377",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMSTOOL"
+    },
+    {
+      "id": "534",
+      "logonTime": "2021-09-26 19:23:42.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB58538C8:1462919866",
+      "previousSqlId": "9zg9qd9bm4spu",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "46680",
+      "server": "Dedicated",
+      "sqlAddress": "00007FFBB9E104B8:2907683678",
+      "sqlId": "fjxbthqqnzfuy",
+      "status": "Active",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "646",
+      "logonTime": "2021-09-16 20:53:29.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "5836",
+      "program": "ORACLE.EXE (VKTM)",
+      "serialNo": "58432",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "647",
+      "logonTime": "2021-09-16 20:53:34.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "3336",
+      "program": "ORACLE.EXE (VKRM)",
+      "serialNo": "60124",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "648",
+      "logonTime": "2021-09-16 20:53:40.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "6248",
+      "program": "ORACLE.EXE (CKPT)",
+      "serialNo": "1586",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "649",
+      "logonTime": "2021-09-16 20:53:43.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB97E4BF8:3723762111",
+      "previousSqlId": "9x2prazfz86dz",
+      "process": "3624",
+      "program": "ORACLE.EXE (W000)",
+      "serialNo": "65298",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "651",
+      "logonTime": "2021-09-16 20:53:45.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBBB889DE0:1570213724",
+      "previousSqlId": "bsa0wjtftg3uw",
+      "process": "6368",
+      "program": "ORACLE.EXE (MMNL)",
+      "serialNo": "57455",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "652",
+      "logonTime": "2021-09-16 20:53:58.0",
+      "machine": "WN7A",
+      "osUser": "oracle",
+      "previousSqlAddress": "00:0",
+      "process": "8044",
+      "program": "ORACLE.EXE (ARC2)",
+      "serialNo": "16296",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "KTSJ Slave",
+      "id": "653",
+      "logonTime": "2021-09-16 21:04:05.0",
+      "machine": "WN7A",
+      "module": "KTSJ",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB97E4BF8:3723762111",
+      "previousSqlId": "9x2prazfz86dz",
+      "process": "144",
+      "program": "ORACLE.EXE (W006)",
+      "serialNo": "10776",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "Automatic Report Flush",
+      "id": "654",
+      "logonTime": "2021-09-16 20:54:17.0",
+      "machine": "WN7A",
+      "module": "MMON_SLAVE",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB72AE0E8:3837898710",
+      "previousSqlId": "c9umxngkc3byq",
+      "process": "6168",
+      "program": "ORACLE.EXE (M003)",
+      "serialNo": "63016",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "action": "Automatic Report Flush",
+      "id": "656",
+      "logonTime": "2021-09-16 21:10:05.0",
+      "machine": "WN7A",
+      "module": "MMON_SLAVE",
+      "osUser": "oracle",
+      "previousSqlAddress": "00007FFBB72AE0E8:3837898710",
+      "previousSqlId": "c9umxngkc3byq",
+      "process": "5756",
+      "program": "ORACLE.EXE (M004)",
+      "serialNo": "48186",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Active",
+      "terminal": "WN7A",
+      "type": "Background"
+    },
+    {
+      "id": "660",
+      "logonTime": "2021-09-20 10:37:41.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB394D3A8:2893268633",
+      "previousSqlId": "2tzuwq6q77jnt",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "35737",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "WMS"
+    },
+    {
+      "id": "661",
+      "logonTime": "2021-09-20 10:37:43.0",
+      "machine": "WN7A",
+      "module": "JDBC Thin Client",
+      "osUser": "Administrator",
+      "previousSqlAddress": "00007FFBB9B1D738:2057858921",
+      "previousSqlId": "g3176qdxahvv9",
+      "process": "1234",
+      "program": "JDBC Thin Client",
+      "serialNo": "22484",
+      "server": "Dedicated",
+      "sqlAddress": "00:0",
+      "status": "Inactive",
+      "terminal": "unknown",
+      "type": "User",
+      "userName": "MC"
+    }
   ]
 }

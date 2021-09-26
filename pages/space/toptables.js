@@ -91,7 +91,7 @@ const TopTables = ({ data }) => {
 export default TopTables;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/space/toptables");
+  const response = await fetch("http://localhost:8099/wse/restapi/oms/space/toptables");
   const data = await response.json();
   return {
     props: { data: data },
