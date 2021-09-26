@@ -91,6 +91,8 @@ const getDistinctUserNames = (data) => {
 
 const Sessions = ({ data }) => {
   const [form] = Form.useForm();
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(15);
   const statusList = getDistinctStatus();
   const userNameList = getDistinctUserNames(data);
   const [status, setStatus] = useState("All");
@@ -148,7 +150,16 @@ const Sessions = ({ data }) => {
         dataSource={filteredData}
         bordered
         size="small"
-        pagination={{ pageSize: 15, position: ["topRight"] }}
+        pagination={{
+          page: page,
+          pageSize: pageSize,
+          position: ["topRight"],
+          pageSizeOptions: [10, 15, 30, 100, 500],
+          onChange: (p, size) => {
+            setPage(p);
+            setPageSize(size);
+          },
+        }}
         scroll={{ x: 1300 }}
       />
     </div>
