@@ -1,6 +1,7 @@
 import React from "react";
-import { Table, Form, Button, Select, message } from "antd";
+import { Table, Form, Button, Select, message, Tag } from "antd";
 import { useState } from "react";
+import { CheckCircleOutlined, ClockCircleOutlined } from "@ant-design/icons";
 
 const columns = [
   {
@@ -22,6 +23,15 @@ const columns = [
     dataIndex: "status",
     key: "id",
     width: 100,
+    render: (status) => (
+      <Tag
+        color={status === "Active" ? "green" : "volcano"}
+        icon={status === "Active" ? <CheckCircleOutlined /> : <ClockCircleOutlined />}
+        key={status}
+      >
+        {status}
+      </Tag>
+    ),
   },
   {
     title: "Type",

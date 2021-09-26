@@ -1,5 +1,6 @@
 import React from "react";
-import { Table, Form, Progress, message } from "antd";
+import { Table, Form, Progress, message, Tag } from "antd";
+import { CheckCircleOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 
 const columns = [
   {
@@ -20,6 +21,15 @@ const columns = [
     dataIndex: "status",
     key: "tablespace",
     width: 80,
+    render: (status) => (
+      <Tag
+        color={status === "Online" ? "green" : "volcano"}
+        icon={status === "Online" ? <CheckCircleOutlined /> : <ExclamationCircleOutlined />}
+        key={status}
+      >
+        {status}
+      </Tag>
+    ),
   },
   {
     title: "Size (MB)",
@@ -57,6 +67,11 @@ const columns = [
     dataIndex: "autoExtensible",
     key: "tablespace",
     width: 100,
+    render: (autoExtensible) => (
+      <Tag color={autoExtensible === "Yes" ? "green" : "volcano"} key={autoExtensible}>
+        {autoExtensible}
+      </Tag>
+    ),
   },
   {
     title: "Next Extend (MB)",

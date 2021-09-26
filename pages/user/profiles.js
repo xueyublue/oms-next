@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Form, Button, Select, message } from "antd";
+import { Table, Form, Button, Select, message, Tag } from "antd";
 import { useState } from "react";
 
 const columns = [
@@ -25,6 +25,11 @@ const columns = [
     title: "Limit",
     dataIndex: "limit",
     key: "resourceName",
+    render: (limit) => (
+      <Tag color={limit === "Unlimited" ? "green" : "geekblue"} key={limit}>
+        {limit}
+      </Tag>
+    ),
   },
 ];
 
