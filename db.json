@@ -1,0 +1,49 @@
+{
+  "details": [
+    {
+      "key": "instanceName",
+      "name": "Instance Name",
+      "value": "orcl"
+    },
+    {
+      "key": "version",
+      "name": "Version",
+      "value": "19.0.0.0.0"
+    },
+    {
+      "key": "startupTime",
+      "name": "Startup Time",
+      "value": "2021-09-16 20:53:20.0"
+    },
+    {
+      "key": "hostName",
+      "name": "Hostname",
+      "value": "WN7A"
+    },
+    {
+      "key": "databaseaName",
+      "name": "Database Name",
+      "value": "ORCL"
+    },
+    {
+      "key": "timeCreated",
+      "name": "Time Created",
+      "value": "2021-05-07 16:31:54.0"
+    },
+    {
+      "key": "logMode",
+      "name": "Log Mode",
+      "value": "ARCHIVELOG"
+    },
+    {
+      "key": "banner",
+      "name": "Banner",
+      "value": "Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production"
+    },
+    {
+      "key": "currentSessions",
+      "name": "Current Sessions",
+      "value": 70
+    }
+  ]
+}

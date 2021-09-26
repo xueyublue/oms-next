@@ -1,0 +1,3 @@
+{
+  "/wse/restapi/oms/instance/*": "/$1"
+}
