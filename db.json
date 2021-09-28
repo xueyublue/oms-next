@@ -145,7 +145,7 @@
     },
     {
       "allocationType": "Uniform",
-      "autoExtensible": "Yes",
+      "autoExtensible": "No",
       "contents": "Permanent",
       "freeSize": 568,
       "name": "WMS",
@@ -153,7 +153,7 @@
       "occupancy": 19,
       "path": "E:\\ORACLE\\ORADATA\\ORCL\\WMS_01.DBF",
       "size": 700,
-      "status": "Online"
+      "status": "Offline"
     },
     {
       "allocationType": "Uniform",

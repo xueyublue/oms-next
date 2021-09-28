@@ -26,7 +26,7 @@ const columns = [
     dataIndex: "limit",
     key: "resourceName",
     render: (limit) => (
-      <Tag color={limit === "Unlimited" ? "green" : "geekblue"} key={limit}>
+      <Tag color={limit === "Unlimited" ? "green" : limit === "Default" ? "geekblue" : "volcano"} key={limit}>
         {limit}
       </Tag>
     ),
