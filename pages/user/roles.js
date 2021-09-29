@@ -6,7 +6,7 @@ const columns = [
   {
     title: "Role",
     dataIndex: "role",
-    key: "roleId",
+    key: "role",
     width: 300,
   },
   {
@@ -18,7 +18,7 @@ const columns = [
   {
     title: "Password Required?",
     dataIndex: "passwordRequired",
-    key: "roleId",
+    key: "passwordRequired",
     render: (passwordRequired) => (
       <Tag color={passwordRequired === "No" ? "green" : "geekblue"} key={passwordRequired}>
         {passwordRequired}

@@ -6,20 +6,21 @@ const columns = [
   {
     title: "Name",
     dataIndex: "name",
-    key: "tablespace",
+    key: "name",
     width: 120,
-    sorter: (a, b) => a.name - b.name,
+    sorter: (a, b) => a.name > b.name,
   },
   {
     title: "Path",
     dataIndex: "path",
-    key: "tablespace",
+    key: "path",
     width: 200,
+    sorter: (a, b) => a.path > b.path,
   },
   {
     title: "Status",
     dataIndex: "status",
-    key: "tablespace",
+    key: "status",
     width: 80,
     render: (status) => (
       <Tag
@@ -34,7 +35,7 @@ const columns = [
   {
     title: "Size (MB)",
     dataIndex: "size",
-    key: "tablespace",
+    key: "size",
     width: 100,
     align: "right",
     sorter: (a, b) => a.size - b.size,
@@ -42,7 +43,7 @@ const columns = [
   {
     title: "Free Size (MB) ",
     dataIndex: "freeSize",
-    key: "tablespace",
+    key: "freeSize",
     width: 120,
     align: "right",
     sorter: (a, b) => a.freeSize - b.freeSize,
@@ -50,7 +51,7 @@ const columns = [
   {
     title: "Occupancy",
     dataIndex: "occupancy",
-    key: "tablespace",
+    key: "occupancy",
     width: 140,
     render: (text) => (
       <Progress
@@ -65,7 +66,7 @@ const columns = [
   {
     title: "Auto Extend",
     dataIndex: "autoExtensible",
-    key: "tablespace",
+    key: "autoExtensible",
     width: 100,
     render: (autoExtensible) => (
       <Tag color={autoExtensible === "Yes" ? "green" : "volcano"} key={autoExtensible}>
@@ -76,20 +77,20 @@ const columns = [
   {
     title: "Next Extend (MB)",
     dataIndex: "nextExtend",
-    key: "tablespace",
+    key: "nextExtend",
     width: 140,
     align: "right",
   },
   {
     title: "Contents",
     dataIndex: "contents",
-    key: "tablespace",
+    key: "contents",
     width: 100,
   },
   {
     title: "Allocation Type",
     dataIndex: "allocationType",
-    key: "tablespace",
+    key: "allocationType",
     width: 120,
   },
 ];

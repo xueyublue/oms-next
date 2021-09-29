@@ -6,12 +6,12 @@ const columns = [
   {
     title: "Field",
     dataIndex: "name",
-    key: "key",
+    key: "name",
   },
   {
     title: "Value",
     dataIndex: "value",
-    key: "key",
+    key: "value",
   },
 ];
 

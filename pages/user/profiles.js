@@ -6,7 +6,7 @@ const columns = [
   {
     title: "Profile",
     dataIndex: "profile",
-    key: "resourceName",
+    key: "profile",
     width: 160,
   },
   {
@@ -18,13 +18,13 @@ const columns = [
   {
     title: "Resource Type",
     dataIndex: "resourceType",
-    key: "resourceName",
+    key: "resourceType",
     width: 140,
   },
   {
     title: "Limit",
     dataIndex: "limit",
-    key: "resourceName",
+    key: "limit",
     render: (limit) => (
       <Tag color={limit === "Unlimited" ? "green" : limit === "Default" ? "geekblue" : "volcano"} key={limit}>
         {limit}

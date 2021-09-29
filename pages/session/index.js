@@ -15,13 +15,13 @@ const columns = [
   {
     title: "Serial #",
     dataIndex: "serialNo",
-    key: "id",
+    key: "serialNo",
     width: 80,
   },
   {
     title: "Status",
     dataIndex: "status",
-    key: "id",
+    key: "status",
     width: 100,
     render: (status) => (
       <Tag
@@ -36,55 +36,55 @@ const columns = [
   {
     title: "Type",
     dataIndex: "type",
-    key: "id",
+    key: "type",
     width: 100,
   },
   {
     title: "User Name",
     dataIndex: "userName",
-    key: "id",
+    key: "userName",
     width: 100,
   },
   {
     title: "OS User",
     dataIndex: "osUser",
-    key: "id",
+    key: "osUser",
     width: 110,
   },
   {
     title: "Machine",
     dataIndex: "machine",
-    key: "id",
+    key: "machine",
     width: 100,
   },
   {
     title: "Terminal",
     dataIndex: "terminal",
-    key: "id",
+    key: "terminal",
     width: 100,
   },
   {
     title: "Program",
     dataIndex: "program",
-    key: "id",
+    key: "program",
     width: 180,
   },
   {
     title: "Module",
     dataIndex: "module",
-    key: "id",
+    key: "module",
     width: 150,
   },
   {
     title: "Process",
     dataIndex: "process",
-    key: "id",
+    key: "process",
     width: 100,
   },
   {
     title: "Logon Time",
     dataIndex: "logonTime",
-    key: "id",
+    key: "logonTime",
     width: 180,
   },
 ];

@@ -8,32 +8,33 @@ const columns = [
     dataIndex: "resourceName",
     key: "resourceName",
     width: 300,
+    sorter: (a, b) => a.resourceName > b.resourceName,
   },
   {
     title: "Current Utilization",
     dataIndex: "currentUtilization",
-    key: "resourceName",
+    key: "currentUtilization",
     width: 150,
     sorter: (a, b) => a.currentUtilization - b.currentUtilization,
   },
   {
     title: "Max Utilization",
     dataIndex: "maxUtilization",
-    key: "resourceName",
+    key: "maxUtilization",
     width: 150,
     sorter: (a, b) => a.maxUtilization - b.maxUtilization,
   },
   {
     title: "Initial Allocation",
     dataIndex: "initialAllocation",
-    key: "resourceName",
+    key: "initialAllocation",
     width: 150,
     sorter: (a, b) => a.initialAllocation - b.initialAllocation,
   },
   {
     title: "Limit Value",
     dataIndex: "limitValue",
-    key: "resourceName",
+    key: "limitValue",
     render: (limitValue) => (
       <Tag color={limitValue === "Unlimited" ? "green" : "geekblue"} key={limitValue}>
         {limitValue}

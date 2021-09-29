@@ -12,7 +12,7 @@ const columns = [
   {
     title: "Segment Size (MB)",
     dataIndex: "segmentSize",
-    key: "segmentName",
+    key: "segmentSize",
     width: 200,
     align: "right",
     sorter: (a, b) => a.segmentSize - b.segmentSize,
@@ -20,7 +20,7 @@ const columns = [
   {
     title: "Owner",
     dataIndex: "owner",
-    key: "segmentName",
+    key: "owner",
   },
 ];
 

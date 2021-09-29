@@ -7,7 +7,7 @@ const columns = [
   {
     title: "User Name",
     dataIndex: "userName",
-    key: "userId",
+    key: "userName",
     width: 200,
   },
   {
@@ -19,7 +19,7 @@ const columns = [
   {
     title: "Status",
     dataIndex: "accountStatus",
-    key: "userId",
+    key: "accountStatus",
     width: 140,
     render: (status) => (
       <Tag
@@ -34,43 +34,43 @@ const columns = [
   {
     title: "Profile",
     dataIndex: "profile",
-    key: "userId",
+    key: "profile",
     width: 100,
   },
   {
     title: "Default Tablespace",
     dataIndex: "defaultTablespace",
-    key: "userId",
+    key: "defaultTablespace",
     width: 150,
   },
   {
     title: "Temp Tablespace",
     dataIndex: "temporaryTablespace",
-    key: "userId",
+    key: "temporaryTablespace",
     width: 150,
   },
   {
     title: "Created Date",
     dataIndex: "createdDate",
-    key: "userId",
+    key: "createdDate",
     width: 170,
   },
   {
     title: "Expiry Date",
     dataIndex: "expiryDate",
-    key: "userId",
+    key: "expiryDate",
     width: 170,
   },
   {
     title: "Lock Date",
     dataIndex: "lockDate",
-    key: "userId",
+    key: "lockDate",
     width: 170,
   },
   {
     title: "Last Login Date",
     dataIndex: "lastLogin",
-    key: "userId",
+    key: "lastLogin",
   },
 ];
 
