@@ -112,10 +112,6 @@ const NavBar = () => {
           </Menu.Item>
         </SubMenu>
 
-        <Menu.Item key="/session" icon={<ApartmentOutlined />}>
-          <Link href="/session">Session</Link>
-        </Menu.Item>
-
         <SubMenu key="/user" icon={<UserOutlined />} title="User">
           <Menu.Item key="/user/profiles" icon={<SolutionOutlined />}>
             <Link href="/user/profiles">Profiles</Link>
@@ -133,6 +129,10 @@ const NavBar = () => {
             <Link href="/user/userprivileges">User Privileges</Link>
           </Menu.Item>
         </SubMenu>
+
+        <Menu.Item key="/session" icon={<ApartmentOutlined />}>
+          <Link href="/session">Session</Link>
+        </Menu.Item>
 
         <Menu.Item key="logout" icon={<LogoutOutlined />}>
           Logout

@@ -11,12 +11,14 @@ const columns = [
     width: 60,
     align: "center",
     render: (text) => <a style={{ color: "#1890FF" }}>{text}</a>,
+    sorter: (a, b) => a.id - b.id,
   },
   {
     title: "Serial #",
     dataIndex: "serialNo",
     key: "serialNo",
     width: 80,
+    sorter: (a, b) => a.serialNo - b.serialNo,
   },
   {
     title: "Status",
@@ -80,6 +82,7 @@ const columns = [
     dataIndex: "process",
     key: "process",
     width: 100,
+    sorter: (a, b) => a.process - b.process,
   },
   {
     title: "Logon Time",
