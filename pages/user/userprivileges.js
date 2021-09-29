@@ -1,24 +1,92 @@
 import React from "react";
-
-import { Table } from "antd";
+import { Table, Form, Button, Select, message, Tag } from "antd";
+import { useState } from "react";
 
 const columns = [
   {
-    title: "Field",
-    dataIndex: "name",
-    key: "name",
+    title: "User Name",
+    dataIndex: "userName",
+    key: "userName",
+    width: 300,
   },
   {
-    title: "Value",
-    dataIndex: "value",
-    key: "value",
+    title: "Privilege",
+    dataIndex: "privilege",
+    key: "privilege",
+    width: 400,
+  },
+  {
+    title: "Admin Option",
+    dataIndex: "adminOption",
+    key: "adminOption",
+    render: (adminOption) => (
+      <Tag color={adminOption === "No" ? "green" : "volcano"} key={adminOption}>
+        {adminOption}
+      </Tag>
+    ),
   },
 ];
 
+const getDistinctUserNames = (data) => {
+  let userNameList = [];
+  data.map((row) => row.userName && userNameList.push(row.userName));
+  return ["All", ...new Set(userNameList)];
+};
+
 const UserPrivileges = ({ data }) => {
+  const [form] = Form.useForm();
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(15);
+  const userNameList = getDistinctUserNames(data);
+  const [userName, setUserName] = useState("All");
+  const filteredData = data.filter((row) => (userName === "All" ? true : row.userName === userName));
+  message.info(`${data.length} records found.`);
+
   return (
     <div>
-      <Table title={() => <h3>User Privileges</h3>} columns={columns} dataSource={data} bordered size="small" />
+      <Form form={form} layout={"inline"} size={"middle"}>
+        <Form.Item label="User Name" style={{ width: 240 }}>
+          <Select
+            value={userName}
+            onChange={(value) => {
+              setUserName(value);
+            }}
+          >
+            {userNameList.map((userName) => (
+              <Select.Option value={userName} key={userName}>
+                {userName}
+              </Select.Option>
+            ))}
+          </Select>
+        </Form.Item>
+        <Form.Item>
+          <Button
+            type="default"
+            onClick={() => {
+              setUserName("All");
+            }}
+          >
+            Clear
+          </Button>
+        </Form.Item>
+      </Form>
+      <Table
+        columns={columns}
+        dataSource={filteredData}
+        bordered
+        size="small"
+        pagination={{
+          page: page,
+          pageSize: pageSize,
+          position: ["topRight"],
+          pageSizeOptions: [10, 15, 30, 100, 500],
+          onChange: (p, size) => {
+            setPage(p);
+            setPageSize(size);
+          },
+        }}
+        scroll={{ x: 1000 }}
+      />
     </div>
   );
 };
@@ -26,7 +94,7 @@ const UserPrivileges = ({ data }) => {
 export default UserPrivileges;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/instance/details");
+  const response = await fetch("http://localhost:8099/wse/restapi/oms/user/userprivileges");
   const data = await response.json();
   return {
     props: { data: data },

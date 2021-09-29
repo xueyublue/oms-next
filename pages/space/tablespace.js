@@ -64,7 +64,7 @@ const columns = [
     sorter: (a, b) => a.occupancy - b.occupancy,
   },
   {
-    title: "Auto Extend",
+    title: "Auto Extend?",
     dataIndex: "autoExtensible",
     key: "autoExtensible",
     width: 100,

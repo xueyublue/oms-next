@@ -15,6 +15,7 @@ const columns = [
     dataIndex: "userId",
     key: "userId",
     width: 120,
+    sorter: (a, b) => a.userId - b.userId,
   },
   {
     title: "Status",
