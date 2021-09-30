@@ -1,6 +1,7 @@
 import React from "react";
 import { Table, Form, Progress, message, Tag } from "antd";
 import { CheckCircleOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
+import { formatNumberWithCommas } from "../../util/util";
 
 const columns = [
   {
@@ -38,6 +39,7 @@ const columns = [
     key: "size",
     width: 100,
     align: "right",
+    render: (value) => formatNumberWithCommas(value),
     sorter: (a, b) => a.size - b.size,
   },
   {
@@ -46,6 +48,7 @@ const columns = [
     key: "freeSize",
     width: 120,
     align: "right",
+    render: (value) => formatNumberWithCommas(value),
     sorter: (a, b) => a.freeSize - b.freeSize,
   },
   {
@@ -80,6 +83,7 @@ const columns = [
     key: "nextExtend",
     width: 140,
     align: "right",
+    render: (value) => formatNumberWithCommas(value),
   },
   {
     title: "Contents",

@@ -1,6 +1,7 @@
 import React from "react";
 import { Table, Form, Button, Select, message, Tag } from "antd";
 import { useState } from "react";
+import { formatNumberWithCommas } from "../../util/util";
 
 const columns = [
   {
@@ -22,9 +23,9 @@ const columns = [
     align: "right",
     width: 200,
     sorter: (a, b) => a.totalRecords - b.totalRecords,
-    render: (totalRecords) => (
-      <Tag color={totalRecords > 10000 ? "volcano" : "green"} key={totalRecords}>
-        {totalRecords}
+    render: (value) => (
+      <Tag color={value > 10000 ? "volcano" : "green"} key={value}>
+        {formatNumberWithCommas(value)}
       </Tag>
     ),
   },
