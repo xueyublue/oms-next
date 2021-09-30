@@ -4,56 +4,74 @@ import { useState } from "react";
 
 const columns = [
   {
-    title: "Name",
+    title: "Parameter Name",
     dataIndex: "name",
     key: "name",
     width: 300,
+    fixed: "left",
   },
-  {
+  /*{
     title: "Type",
     dataIndex: "type",
     key: "type",
     width: 150,
-  },
+  },*/
   {
     title: "Value",
     dataIndex: "value",
     key: "value",
-    render: (value) => (
-      <Tag color={value === "No" ? "green" : "geekblue"} key={value}>
-        {value}
-      </Tag>
-    ),
+    fixed: "left",
+    width: 300,
   },
   {
     title: "Description",
     dataIndex: "description",
     key: "description",
-    width: 300,
+    width: 500,
   },
   {
-    title: "Is Default?",
+    title: "Default?",
     dataIndex: "isDefault",
     key: "isDefault",
-    width: 200,
+    width: 160,
+    render: (value) => (
+      <Tag color={value === "True" ? "green" : "geekblue"} key={value}>
+        {value}
+      </Tag>
+    ),
   },
   {
     title: "Session Modificable?",
     dataIndex: "isSessionModifiable",
     key: "isSessionModifiable",
-    width: 200,
+    width: 180,
+    render: (value) => (
+      <Tag color={value === "True" ? "green" : "geekblue"} key={value}>
+        {value}
+      </Tag>
+    ),
   },
   {
     title: "System Modifucable?",
     dataIndex: "isSystemModifiable",
     key: "isSystemModifiable",
-    width: 200,
+    width: 180,
+    render: (value) => (
+      <Tag color={value === "True" ? "green" : "geekblue"} key={value}>
+        {value}
+      </Tag>
+    ),
   },
   {
     title: "Instance Modificable?",
     dataIndex: "isInstanceModifiable",
     key: "isInstanceModifiable",
-    width: 200,
+    width: 180,
+    render: (value) => (
+      <Tag color={value === "True" ? "green" : "geekblue"} key={value}>
+        {value}
+      </Tag>
+    ),
   },
 ];
 
@@ -79,7 +97,7 @@ const Parameters = ({ data }) => {
             setPageSize(size);
           },
         }}
-        scroll={{ x: 1300 }}
+        scroll={{ x: 1700, y: 700 }}
       />
     </div>
   );
