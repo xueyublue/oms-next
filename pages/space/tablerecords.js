@@ -16,7 +16,7 @@ const columns = [
     width: 300,
   },
   {
-    title: "Table Records",
+    title: "Total Records",
     dataIndex: "totalRecords",
     key: "totalRecords",
     align: "right",
@@ -29,7 +29,7 @@ const columns = [
     ),
   },
   {
-    title: "Tablespace",
+    title: "Tablespace Name",
     dataIndex: "tablespace",
     key: "tablespace",
   },
