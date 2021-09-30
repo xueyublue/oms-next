@@ -4,6 +4,12 @@ import { useState } from "react";
 
 const columns = [
   {
+    title: "Owner",
+    dataIndex: "owner",
+    key: "owner",
+    width: 300,
+  },
+  {
     title: "Segment Name",
     dataIndex: "segmentName",
     key: "segmentName",
@@ -13,14 +19,8 @@ const columns = [
     title: "Segment Size (MB)",
     dataIndex: "segmentSize",
     key: "segmentSize",
-    width: 200,
     align: "right",
     sorter: (a, b) => a.segmentSize - b.segmentSize,
-  },
-  {
-    title: "Owner",
-    dataIndex: "owner",
-    key: "owner",
   },
 ];
 

@@ -21021,13 +21021,13 @@
       "owner": "WMS",
       "tableName": "DMHOSTDATADEFINE",
       "tablespace": "WMS",
-      "totalRecords": 69
+      "totalRecords": 691212
     },
     {
       "owner": "WMS",
       "tableName": "DMITEM",
       "tablespace": "WMS",
-      "totalRecords": 12
+      "totalRecords": 12111
     },
     {
       "owner": "MC",
@@ -21069,13 +21069,13 @@
       "owner": "MC",
       "tableName": "DMSTATIONTYPE",
       "tablespace": "WCS",
-      "totalRecords": 1230
+      "totalRecords": 12300
     },
     {
       "owner": "WMS",
       "tableName": "DMSUPPLIER",
       "tablespace": "WMS",
-      "totalRecords": 2
+      "totalRecords": 26381
     },
     {
       "owner": "MC",
@@ -21087,7 +21087,7 @@
       "owner": "MC",
       "tableName": "DMWAREHOUSE",
       "tablespace": "WCS",
-      "totalRecords": 1
+      "totalRecords": 12
     },
     {
       "owner": "WMS",
