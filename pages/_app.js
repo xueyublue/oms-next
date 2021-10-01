@@ -13,15 +13,14 @@ function MyApp({ Component, pageProps }) {
   const [pageWithoutNavigation, setPageWithoutNavigation] = useState(false);
   const { asPath } = useRouter();
   if (asPath === "/login" && !pageWithoutNavigation) setPageWithoutNavigation(true);
+  if (asPath !== "/login" && pageWithoutNavigation) setPageWithoutNavigation(false);
+  console.log(pageWithoutNavigation);
 
   if (pageWithoutNavigation)
     return (
       <Layout>
         <Layout className="site-layout" className="site-layout" style={{ minHeight: "100vh" }}>
-          <Content
-            className="site-layout-background"
-            style={{ padding: 8,}}
-          >
+          <Content className="site-layout-background" style={{ padding: 8 }}>
             <Component {...pageProps} />
           </Content>
           <Footer style={{ textAlign: "center" }}>All rights reserved by Daifuku Singapore 2021</Footer>
