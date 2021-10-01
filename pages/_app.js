@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
   const { asPath } = useRouter();
   if (asPath === "/login" && !pageWithoutNavigation) setPageWithoutNavigation(true);
   if (asPath !== "/login" && pageWithoutNavigation) setPageWithoutNavigation(false);
-  console.log(pageWithoutNavigation);
 
   if (pageWithoutNavigation)
     return (
