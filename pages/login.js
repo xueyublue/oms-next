@@ -8,7 +8,6 @@ const Login = ({ data }) => {
   const [form] = Form.useForm();
 
   const onFinish = (values) => {
-    console.log("Received values of form: ", values);
     if (values.username === "oms" && values.password === "oms") Router.push("/dashboard");
   };
 

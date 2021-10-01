@@ -134,7 +134,7 @@ const NavBar = () => {
         </Menu.Item>
 
         <Menu.Item key="logout" icon={<LogoutOutlined />}>
-          Logout
+          <Link href="/logout">Logout</Link>
         </Menu.Item>
       </Menu>
     </Sider>
