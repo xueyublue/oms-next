@@ -23,6 +23,7 @@ const columns = [
     dataIndex: "status",
     key: "status",
     width: 80,
+    align: "center",
     render: (status) => (
       <Tag
         color={status === "Online" ? "green" : "volcano"}
@@ -74,6 +75,7 @@ const columns = [
     dataIndex: "autoExtensible",
     key: "autoExtensible",
     width: 100,
+    align: "center",
     render: (autoExtensible) => (
       <Tag color={autoExtensible === "Yes" ? "green" : "volcano"} key={autoExtensible}>
         {autoExtensible}
