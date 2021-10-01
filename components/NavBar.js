@@ -30,7 +30,6 @@ const { SubMenu } = Menu;
 const { Sider } = Layout;
 
 const NavBar = () => {
-  const [collapsed, setCollapsed] = useState(false);
   const [selectedKeys, setSelectedKeys] = useState("dashboard");
   const [openKeys, setOpenKeys] = useState(null);
   const { asPath } = useRouter();
