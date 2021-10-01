@@ -24,7 +24,7 @@ const columns = [
     width: 200,
     sorter: (a, b) => a.totalRecords - b.totalRecords,
     render: (value) => (
-      <Tag color={value > 10000 ? "volcano" : "green"} key={value}>
+      <Tag color={value > 10000 ? "volcano" : value === 0 ? "default" : "green"} key={value}>
         {formatNumberWithCommas(value)}
       </Tag>
     ),

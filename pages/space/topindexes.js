@@ -1,6 +1,7 @@
 import React from "react";
-import { Table, Form, Button, Select, message } from "antd";
+import { Table, Form, Button, Select, message, Tag } from "antd";
 import { useState } from "react";
+import { formatNumberWithCommas } from "../../util/util";
 
 const columns = [
   {
@@ -21,6 +22,11 @@ const columns = [
     key: "segmentSize",
     align: "right",
     sorter: (a, b) => a.segmentSize - b.segmentSize,
+    render: (value) => (
+      <Tag color={value > 1024 ? "volcano" : value === 0 ? "default" : "green"} key={value}>
+        {formatNumberWithCommas(value)}
+      </Tag>
+    ),
   },
 ];
 
