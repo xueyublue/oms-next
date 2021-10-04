@@ -1,5 +1,6 @@
 import React from "react";
 import { Table, message } from "antd";
+import { useState } from "react";
 
 const columns = [
   {
@@ -19,7 +20,7 @@ const InstanceDetails = ({ data }) => {
 
   return (
     <div>
-      <Table title={() => <h3>Instance Details</h3>} columns={columns} dataSource={data} bordered size="small" />
+      <Table columns={columns} dataSource={data} bordered size="small" />
     </div>
   );
 };
@@ -27,7 +28,7 @@ const InstanceDetails = ({ data }) => {
 export default InstanceDetails;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/instance/details");
+  const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/instance/details");
   const data = await response.json();
   return {
     props: { data: data },
