@@ -60,8 +60,6 @@ const columns = [
     align: "center",
     render: (text) => (
       <Progress
-        type="circle"
-        width={50}
         percent={text}
         status={text >= 80 ? "exception" : "normal"}
         strokeLinecap="square"
