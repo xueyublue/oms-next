@@ -1,6 +1,5 @@
 import React from "react";
 import { Table, message } from "antd";
-import { useState } from "react";
 
 const columns = [
   {
