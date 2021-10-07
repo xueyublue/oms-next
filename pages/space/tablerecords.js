@@ -23,11 +23,19 @@ const columns = [
     align: "right",
     width: 200,
     sorter: (a, b) => a.totalRecords - b.totalRecords,
-    render: (value) => (
-      <Tag color={value > 10000 ? "volcano" : value === 0 ? "default" : "green"} key={value}>
-        {formatNumberWithCommas(value)}
-      </Tag>
-    ),
+    render: (value) => {
+      let style = "green";
+      if (value === 0) style = "default";
+      else if (value < 1000) style = "green";
+      else if (value < 10000) style = "green";
+      else if (value < 1000000) style = "gold";
+      else style = "magenta";
+      return (
+        <Tag color={style} key={value}>
+          {formatNumberWithCommas(value)}
+        </Tag>
+      );
+    },
   },
   {
     title: "Tablespace Name",

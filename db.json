@@ -20883,13 +20883,13 @@
       "owner": "WMS",
       "tableName": "DCMENU",
       "tablespace": "WMS",
-      "totalRecords": 43
+      "totalRecords": 1500
     },
     {
       "owner": "WMS",
       "tableName": "DCMENULAYOUT",
       "tablespace": "WMS",
-      "totalRecords": 20
+      "totalRecords": 200
     },
     {
       "owner": "WMS",
@@ -20949,13 +20949,13 @@
       "owner": "WMS",
       "tableName": "DCUSERGADGET",
       "tablespace": "WMS",
-      "totalRecords": 1
+      "totalRecords": 12458596
     },
     {
       "owner": "MC",
       "tableName": "DMACCESSNGSHELF",
       "tablespace": "WCS",
-      "totalRecords": 0
+      "totalRecords": 12541252
     },
     {
       "owner": "MC",

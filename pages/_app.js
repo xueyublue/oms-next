@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
       <NavBar />
       <Layout className="site-layout" className="site-layout" style={{ marginLeft: 240, minHeight: "100vh" }}>
         <Header className="site-layout-background" style={{ paddingLeft: 16 }}>
-          <h2>ORACLE Monitoring System</h2>
+          <h3>ORACLE Monitoring System</h3>
         </Header>
         <Content
           className="site-layout-background"
