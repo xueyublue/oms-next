@@ -27,7 +27,9 @@ const Banners = ({ data }) => {
 export default Banners;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/instance/banners");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/instance/banners"
+  );
   const data = await response.json();
   return {
     props: { data: data },
