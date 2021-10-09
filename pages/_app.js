@@ -1,11 +1,11 @@
+import { useState } from "react";
+import { useRouter } from "next/dist/client/router";
 import { Layout } from "antd";
+import "antd/dist/antd.css";
 
 import NavBar from "../components/NavBar";
 import "../styles/globals.css";
-import "antd/dist/antd.css";
 import "./index.css";
-import { useRouter } from "next/dist/client/router";
-import { useState } from "react";
 import AppBar from "../components/AppBar";
 import AppFooter from "../components/AppFooter";
 
