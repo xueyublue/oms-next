@@ -38,7 +38,9 @@ const NavBar = () => {
     const lastIndex = asPath.lastIndexOf("/");
     if (lastIndex !== 0) setOpenKeys(asPath.substr(0, asPath.lastIndexOf("/")));
   }
-  console.log(`selectedKeys: ${selectedKeys}, asPath: ${asPath}, openKeys: ${openKeys}`);
+  console.log(
+    `selectedKeys: ${selectedKeys}, asPath: ${asPath}, openKeys: ${openKeys}`
+  );
 
   return (
     <Sider
@@ -72,7 +74,11 @@ const NavBar = () => {
           <Link href="/dashboard">Dashboard</Link>
         </Menu.Item>
 
-        <SubMenu key="/instance" icon={<DeploymentUnitOutlined />} title="Instance">
+        <SubMenu
+          key="/instance"
+          icon={<DeploymentUnitOutlined />}
+          title="Instance"
+        >
           <Menu.Item key="/instance/details" icon={<UnorderedListOutlined />}>
             <Link href="/instance/details">Details</Link>
           </Menu.Item>
@@ -82,7 +88,10 @@ const NavBar = () => {
           <Menu.Item key="/instance/banners" icon={<OneToOneOutlined />}>
             <Link href="/instance/banners">Banners</Link>
           </Menu.Item>
-          <Menu.Item key="/instance/resourcelimit" icon={<ColumnHeightOutlined />}>
+          <Menu.Item
+            key="/instance/resourcelimit"
+            icon={<ColumnHeightOutlined />}
+          >
             <Link href="/instance/resourcelimit">Resource Limit</Link>
           </Menu.Item>
           <Menu.Item key="/instance/parameters" icon={<ProjectOutlined />}>
@@ -90,7 +99,11 @@ const NavBar = () => {
           </Menu.Item>
         </SubMenu>
 
-        <SubMenu key="/performance" icon={<LineChartOutlined />} title="Performance">
+        <SubMenu
+          key="/performance"
+          icon={<LineChartOutlined />}
+          title="Performance"
+        >
           <Menu.Item key="/performance/session" icon={<LineChartOutlined />}>
             <Link href="/performance/session">Session</Link>
           </Menu.Item>
@@ -131,10 +144,6 @@ const NavBar = () => {
 
         <Menu.Item key="/session" icon={<ApartmentOutlined />}>
           <Link href="/session">Session</Link>
-        </Menu.Item>
-
-        <Menu.Item key="logout" icon={<LogoutOutlined />}>
-          <Link href="/logout">Logout</Link>
         </Menu.Item>
       </Menu>
     </Sider>

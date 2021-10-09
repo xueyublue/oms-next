@@ -9,29 +9,33 @@ import {
   Dropdown,
   Menu,
   message,
+  Divider,
 } from "antd";
 import {
   UserOutlined,
   LogoutOutlined,
   SettingOutlined,
 } from "@ant-design/icons";
-
 const { Header } = Layout;
+import Router from "next/router";
 
 function handleMenuClick(e) {
   message.info("Click on menu item.");
   console.log("click", e);
+  if (e.key === "profile") Router.push("/profile");
+  else if (e.key === "settings") Router.push("/settings");
+  else if (e.key === "logout") Router.push("/login");
 }
 
 const menu = (
   <Menu onClick={handleMenuClick}>
-    <Menu.Item key="1" icon={<UserOutlined />}>
+    <Menu.Item key="profile" icon={<UserOutlined />}>
       Profile
     </Menu.Item>
-    <Menu.Item key="2" icon={<SettingOutlined />}>
+    <Menu.Item key="settings" icon={<SettingOutlined />}>
       Settings
     </Menu.Item>
-    <Menu.Item key="3" icon={<LogoutOutlined />}>
+    <Menu.Item key="logout" icon={<LogoutOutlined />}>
       Logout
     </Menu.Item>
   </Menu>
