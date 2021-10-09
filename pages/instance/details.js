@@ -19,7 +19,13 @@ const InstanceDetails = ({ data }) => {
 
   return (
     <div>
-      <Table columns={columns} dataSource={data} bordered size="small" />
+      <Table
+        columns={columns}
+        dataSource={data}
+        bordered
+        size="small"
+        pagination={{ pageSize: 15, position: ["none"] }}
+      />
     </div>
   );
 };
@@ -27,7 +33,9 @@ const InstanceDetails = ({ data }) => {
 export default InstanceDetails;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/instance/details");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/instance/details"
+  );
   const data = await response.json();
   return {
     props: { data: data },
