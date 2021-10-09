@@ -20,8 +20,6 @@ const { Header } = Layout;
 import Router from "next/router";
 
 function handleMenuClick(e) {
-  message.info("Click on menu item.");
-  console.log("click", e);
   if (e.key === "profile") Router.push("/profile");
   else if (e.key === "settings") Router.push("/settings");
   else if (e.key === "logout") Router.push("/login");
