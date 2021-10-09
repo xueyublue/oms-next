@@ -6,33 +6,38 @@ import "antd/dist/antd.css";
 import "./index.css";
 import { useRouter } from "next/dist/client/router";
 import { useState } from "react";
+import AppBar from "../components/AppBar";
+import AppFooter from "../components/AppFooter";
 
-const { Header, Content, Footer } = Layout;
+const { Content } = Layout;
 
 function MyApp({ Component, pageProps }) {
   const [pageWithoutNavigation, setPageWithoutNavigation] = useState(false);
   const { asPath } = useRouter();
-  if (asPath === "/login" && !pageWithoutNavigation) setPageWithoutNavigation(true);
-  if (asPath !== "/login" && pageWithoutNavigation) setPageWithoutNavigation(false);
+  if (asPath === "/login" && !pageWithoutNavigation)
+    setPageWithoutNavigation(true);
+  if (asPath !== "/login" && pageWithoutNavigation)
+    setPageWithoutNavigation(false);
 
   if (pageWithoutNavigation)
     return (
       <Layout>
-        <Layout className="site-layout" className="site-layout" style={{ minHeight: "100vh" }}>
+        <Layout className="site-layout" style={{ minHeight: "100vh" }}>
           <Content className="site-layout-background" style={{ padding: 8 }}>
             <Component {...pageProps} />
           </Content>
-          <Footer style={{ textAlign: "center" }}>All rights reserved by Daifuku Singapore 2021</Footer>
+          <AppFooter />
         </Layout>
       </Layout>
     );
   return (
     <Layout>
       <NavBar />
-      <Layout className="site-layout" className="site-layout" style={{ marginLeft: 240, minHeight: "100vh" }}>
-        <Header className="site-layout-background" style={{ paddingLeft: 16 }}>
-          <h3>ORACLE Monitoring System</h3>
-        </Header>
+      <Layout
+        className="site-layout"
+        style={{ marginLeft: 240, minHeight: "100vh" }}
+      >
+        <AppBar />
         <Content
           className="site-layout-background"
           style={{
@@ -43,7 +48,7 @@ function MyApp({ Component, pageProps }) {
         >
           <Component {...pageProps} />
         </Content>
-        <Footer style={{ textAlign: "center" }}>All rights reserved by Daifuku Singapore 2021</Footer>
+        <AppFooter />
       </Layout>
     </Layout>
   );
