@@ -50,7 +50,7 @@ const NavBar = () => {
         position: "fixed",
         left: 0,
       }}
-      width={240}
+      width={220}
     >
       <div className="logo" />
       <Menu

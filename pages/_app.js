@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
       <NavBar />
       <Layout
         className="site-layout"
-        style={{ marginLeft: 240, minHeight: "100vh" }}
+        style={{ marginLeft: 220, minHeight: "100vh" }}
       >
         <AppBar />
         <Content
