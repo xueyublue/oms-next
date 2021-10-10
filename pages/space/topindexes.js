@@ -23,7 +23,10 @@ const columns = [
     align: "right",
     sorter: (a, b) => a.segmentSize - b.segmentSize,
     render: (value) => (
-      <Tag color={value > 1024 ? "volcano" : value === 0 ? "default" : "green"} key={value}>
+      <Tag
+        color={value > 1024 ? "volcano" : value === 0 ? "default" : "green"}
+        key={value}
+      >
         {formatNumberWithCommas(value)}
       </Tag>
     ),
@@ -42,7 +45,9 @@ const TopIndexes = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const ownerList = getDistinctOwners(data);
   const [owner, setOwner] = useState("All");
-  const filteredData = data.filter((row) => (owner === "All" ? true : row.owner === owner));
+  const filteredData = data.filter((row) =>
+    owner === "All" ? true : row.owner === owner
+  );
   message.info(`${data.length} records found.`);
 
   return (
@@ -64,16 +69,17 @@ const TopIndexes = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="default"
+            type="primary"
             onClick={() => {
               setOwner("All");
             }}
           >
-            Clear
+            CLEAR
           </Button>
         </Form.Item>
       </Form>
       <Table
+        style={{ marginTop: 10 }}
         columns={columns}
         dataSource={filteredData}
         bordered
@@ -81,7 +87,7 @@ const TopIndexes = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -97,7 +103,9 @@ const TopIndexes = ({ data }) => {
 export default TopIndexes;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/space/topindexes");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/space/topindexes"
+  );
   const data = await response.json();
   return {
     props: { data: data },

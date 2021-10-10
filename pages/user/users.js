@@ -1,7 +1,10 @@
 import React from "react";
 import { Table, Form, Button, Select, message, Tag } from "antd";
 import { useState } from "react";
-import { CheckCircleOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
+import {
+  CheckCircleOutlined,
+  ExclamationCircleOutlined,
+} from "@ant-design/icons";
 
 const columns = [
   {
@@ -25,7 +28,13 @@ const columns = [
     render: (status) => (
       <Tag
         color={status === "OPEN" ? "green" : "volcano"}
-        icon={status === "OPEN" ? <CheckCircleOutlined /> : <ExclamationCircleOutlined />}
+        icon={
+          status === "OPEN" ? (
+            <CheckCircleOutlined />
+          ) : (
+            <ExclamationCircleOutlined />
+          )
+        }
         key={status}
       >
         {status}
@@ -87,7 +96,9 @@ const Users = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const statusList = getDistinctStatus(data);
   const [status, setStatus] = useState("All");
-  const filteredData = data.filter((row) => (status === "All" ? true : row.accountStatus === status));
+  const filteredData = data.filter((row) =>
+    status === "All" ? true : row.accountStatus === status
+  );
   message.info(`${data.length} records found.`);
 
   return (
@@ -109,16 +120,17 @@ const Users = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="default"
+            type="primary"
             onClick={() => {
               setStatus("All");
             }}
           >
-            Clear
+            CLEAR
           </Button>
         </Form.Item>
       </Form>
       <Table
+        style={{ marginTop: 10 }}
         columns={columns}
         dataSource={filteredData}
         bordered
@@ -126,7 +138,7 @@ const Users = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -142,7 +154,9 @@ const Users = ({ data }) => {
 export default Users;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/user/users");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/user/users"
+  );
   const data = await response.json();
   return {
     props: { data: data },

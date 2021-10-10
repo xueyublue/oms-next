@@ -39,7 +39,9 @@ const UserPrivileges = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const userNameList = getDistinctUserNames(data);
   const [userName, setUserName] = useState("All");
-  const filteredData = data.filter((row) => (userName === "All" ? true : row.userName === userName));
+  const filteredData = data.filter((row) =>
+    userName === "All" ? true : row.userName === userName
+  );
   message.info(`${data.length} records found.`);
 
   return (
@@ -61,16 +63,17 @@ const UserPrivileges = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="default"
+            type="primary"
             onClick={() => {
               setUserName("All");
             }}
           >
-            Clear
+            CLEAR
           </Button>
         </Form.Item>
       </Form>
       <Table
+        style={{ marginTop: 10 }}
         columns={columns}
         dataSource={filteredData}
         bordered
@@ -78,7 +81,7 @@ const UserPrivileges = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -94,7 +97,9 @@ const UserPrivileges = ({ data }) => {
 export default UserPrivileges;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/user/userprivileges");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/user/userprivileges"
+  );
   const data = await response.json();
   return {
     props: { data: data },

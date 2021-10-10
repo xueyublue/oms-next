@@ -58,7 +58,7 @@ const ResourceLimit = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);

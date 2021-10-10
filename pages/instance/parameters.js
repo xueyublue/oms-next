@@ -90,7 +90,7 @@ const Parameters = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -106,7 +106,9 @@ const Parameters = ({ data }) => {
 export default Parameters;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/instance/parameters");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/instance/parameters"
+  );
   const data = await response.json();
   return {
     props: { data: data },

@@ -56,7 +56,9 @@ const TableRecords = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const ownerList = getDistinctOwners(data);
   const [owner, setOwner] = useState("All");
-  const filteredData = data.filter((row) => (owner === "All" ? true : row.owner === owner));
+  const filteredData = data.filter((row) =>
+    owner === "All" ? true : row.owner === owner
+  );
   message.info(`${data.length} records found.`);
 
   return (
@@ -78,16 +80,17 @@ const TableRecords = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="default"
+            type="primary"
             onClick={() => {
               setOwner("All");
             }}
           >
-            Clear
+            CLEAR
           </Button>
         </Form.Item>
       </Form>
       <Table
+        style={{ marginTop: 10 }}
         columns={columns}
         dataSource={filteredData}
         bordered
@@ -95,7 +98,7 @@ const TableRecords = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -111,7 +114,9 @@ const TableRecords = ({ data }) => {
 export default TableRecords;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/space/tablerecords");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/space/tablerecords"
+  );
   const data = await response.json();
   return {
     props: { data: data },

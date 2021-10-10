@@ -28,7 +28,13 @@ const columns = [
     render: (status) => (
       <Tag
         color={status === "Active" ? "green" : "volcano"}
-        icon={status === "Active" ? <CheckCircleOutlined /> : <ClockCircleOutlined />}
+        icon={
+          status === "Active" ? (
+            <CheckCircleOutlined />
+          ) : (
+            <ClockCircleOutlined />
+          )
+        }
         key={status}
       >
         {status}
@@ -149,17 +155,18 @@ const Sessions = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="default"
+            type="primary"
             onClick={() => {
               setStatus("All");
               setUserName("All");
             }}
           >
-            Clear
+            CLEAR
           </Button>
         </Form.Item>
       </Form>
       <Table
+        style={{ marginTop: 10 }}
         columns={columns}
         dataSource={filteredData}
         bordered
@@ -167,7 +174,7 @@ const Sessions = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -183,7 +190,9 @@ const Sessions = ({ data }) => {
 export default Sessions;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/sessions");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/sessions"
+  );
   const data = await response.json();
   return {
     props: { data: data },

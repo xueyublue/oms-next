@@ -26,7 +26,16 @@ const columns = [
     dataIndex: "limit",
     key: "limit",
     render: (limit) => (
-      <Tag color={limit === "Unlimited" ? "green" : limit === "Default" ? "geekblue" : "volcano"} key={limit}>
+      <Tag
+        color={
+          limit === "Unlimited"
+            ? "green"
+            : limit === "Default"
+            ? "geekblue"
+            : "volcano"
+        }
+        key={limit}
+      >
         {limit}
       </Tag>
     ),
@@ -45,7 +54,9 @@ const Profiles = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const profileList = getDistinctProfiles(data);
   const [profile, setProfile] = useState("All");
-  const filteredData = data.filter((row) => (profile === "All" ? true : row.profile === profile));
+  const filteredData = data.filter((row) =>
+    profile === "All" ? true : row.profile === profile
+  );
   message.info(`${data.length} records found.`);
 
   return (
@@ -67,16 +78,17 @@ const Profiles = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="default"
+            type="primary"
             onClick={() => {
               setProfile("All");
             }}
           >
-            Clear
+            CLEAR
           </Button>
         </Form.Item>
       </Form>
       <Table
+        style={{ marginTop: 10 }}
         columns={columns}
         dataSource={filteredData}
         bordered
@@ -84,7 +96,7 @@ const Profiles = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -100,7 +112,9 @@ const Profiles = ({ data }) => {
 export default Profiles;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/user/profiles");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/user/profiles"
+  );
   const data = await response.json();
   return {
     props: { data: data },

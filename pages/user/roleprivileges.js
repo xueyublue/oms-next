@@ -39,7 +39,9 @@ const RolePrivileges = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const roleList = getDistinctRoles(data);
   const [role, setRole] = useState("All");
-  const filteredData = data.filter((row) => (role === "All" ? true : row.role === role));
+  const filteredData = data.filter((row) =>
+    role === "All" ? true : row.role === role
+  );
   message.info(`${data.length} records found.`);
 
   return (
@@ -61,16 +63,17 @@ const RolePrivileges = ({ data }) => {
         </Form.Item>
         <Form.Item>
           <Button
-            type="default"
+            type="primary"
             onClick={() => {
               setRole("All");
             }}
           >
-            Clear
+            CLEAR
           </Button>
         </Form.Item>
       </Form>
       <Table
+        style={{ marginTop: 10 }}
         columns={columns}
         dataSource={filteredData}
         bordered
@@ -78,7 +81,7 @@ const RolePrivileges = ({ data }) => {
         pagination={{
           page: page,
           pageSize: pageSize,
-          position: ["topRight"],
+          position: ["bottomRight"],
           pageSizeOptions: [10, 15, 30, 100, 500],
           onChange: (p, size) => {
             setPage(p);
@@ -94,7 +97,9 @@ const RolePrivileges = ({ data }) => {
 export default RolePrivileges;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/user/roleprivileges");
+  const response = await fetch(
+    "http://localhost:8099/wse/restapi/oms/user/roleprivileges"
+  );
   const data = await response.json();
   return {
     props: { data: data },
