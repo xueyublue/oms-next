@@ -38,9 +38,6 @@ const NavBar = () => {
     const lastIndex = asPath.lastIndexOf("/");
     if (lastIndex !== 0) setOpenKeys(asPath.substr(0, asPath.lastIndexOf("/")));
   }
-  console.log(
-    `selectedKeys: ${selectedKeys}, asPath: ${asPath}, openKeys: ${openKeys}`
-  );
 
   return (
     <Sider
