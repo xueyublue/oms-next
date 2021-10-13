@@ -52,12 +52,8 @@ const AppBar = () => {
         </Col>
         <Col span={12} style={{ textAlign: "right" }}>
           <Dropdown overlay={menu}>
-            <Button
-              type="text"
-              icon={<UserOutlined />}
-              style={{ backgroundColor: "#D3CFE0", opacity: 0.9 }}
-            >
-              DMS IS Team
+            <Button type="text" icon={<UserOutlined />}>
+              DMS IS Team DEV
             </Button>
           </Dropdown>
         </Col>
@@ -73,7 +69,7 @@ const AppBar = () => {
         okText="Yes"
         cancelText="No"
       >
-        <p>Are you sure to logout?</p>
+        Are you sure to logout?
       </Modal>
     </Header>
   );
