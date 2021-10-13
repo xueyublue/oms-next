@@ -45,10 +45,7 @@ const AppBar = () => {
     <Header className="site-layout-background" style={{ paddingLeft: 16 }}>
       <Row justify="start">
         <Col span={12}>
-          <Breadcrumb style={{ margin: "20px 0" }}>
-            <Breadcrumb.Item>User</Breadcrumb.Item>
-            <Breadcrumb.Item>Profiles</Breadcrumb.Item>
-          </Breadcrumb>
+          <h3>[Page Name]</h3>
         </Col>
         <Col span={12} style={{ textAlign: "right" }}>
           <Dropdown overlay={menu}>

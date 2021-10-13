@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useRouter } from "next/dist/client/router";
 import { Layout } from "antd";
 import "antd/dist/antd.css";
+import Head from "next/head";
 
 import NavBar from "../components/NavBar";
 import "../styles/globals.css";
@@ -22,6 +23,9 @@ function MyApp({ Component, pageProps }) {
   if (pageWithoutNavigation)
     return (
       <Layout>
+        <Head>
+          <title>Login OMS</title>
+        </Head>
         <Layout className="site-layout" style={{ minHeight: "100vh" }}>
           <Content className="site-layout-background" style={{ padding: 8 }}>
             <Component {...pageProps} />
@@ -32,6 +36,9 @@ function MyApp({ Component, pageProps }) {
     );
   return (
     <Layout>
+      <Head>
+        <title>OMS</title>
+      </Head>
       <NavBar />
       <Layout
         className="site-layout"
