@@ -21,25 +21,31 @@ export const ROUTE_USER_USERS = "/user/users";
 export const ROUTE_USER_USER_PRIVILEGES = "/user/userprivileges";
 // session
 export const ROUTE_SESSION = "/session";
+// others
+export const ROUTE_PROFILE = "/profile";
+export const ROUTE_SETTINGS = "/settings";
+export const ROUTE_LOGIN = "/login";
 
 export const RouteToPageName = (route) => {
   if (!route) return "";
-  if (route === ROUTE_DASHBORAD) return "Dashboard";
-  if (route === ROUTE_INSTANCE_DETAILS) return "Instance Details";
-  if (route === ROUTE_INSTANCE_SGA) return "SGA Configuration";
-  if (route === ROUTE_INSTANCE_BANNERS) return "Banners";
-  if (route === ROUTE_INSTANCE_RESOURCE_LIMIT) return "Resource Limit";
-  if (route === ROUTE_INSTANCE_PARAMETERS) return "Instance Parameters";
-  if (route === ROUTE_PERFORMANCE_SESSION) return "Session Performance";
-  if (route === ROUTE_SPACE_TABLESPACE) return "Tablespace";
-  if (route === ROUTE_SPACE_TOP_TABLES) return "Top Tables";
-  if (route === ROUTE_SPACE_TOP_INDEXES) return "Top Indexes";
-  if (route === ROUTE_SPACE_TABLE_RECORDS) return "Table Records";
-  if (route === ROUTE_USER_PROFILES) return "Profiles";
-  if (route === ROUTE_USER_ROLES) return "Roles";
-  if (route === ROUTE_USER_ROLE_PRIVILEGES) return "Role Privileges";
-  if (route === ROUTE_USER_USERS) return "Users";
-  if (route === ROUTE_USER_USER_PRIVILEGES) return "User Privileges";
-  if (route === ROUTE_SESSION) return "Sessions";
+  else if (route === ROUTE_DASHBORAD) return "Dashboard";
+  else if (route === ROUTE_INSTANCE_DETAILS) return "Instance Details";
+  else if (route === ROUTE_INSTANCE_SGA) return "SGA Configuration";
+  else if (route === ROUTE_INSTANCE_BANNERS) return "Banners";
+  else if (route === ROUTE_INSTANCE_RESOURCE_LIMIT) return "Resource Limit";
+  else if (route === ROUTE_INSTANCE_PARAMETERS) return "Instance Parameters";
+  else if (route === ROUTE_PERFORMANCE_SESSION) return "Session Performance";
+  else if (route === ROUTE_SPACE_TABLESPACE) return "Tablespace";
+  else if (route === ROUTE_SPACE_TOP_TABLES) return "Top Tables";
+  else if (route === ROUTE_SPACE_TOP_INDEXES) return "Top Indexes";
+  else if (route === ROUTE_SPACE_TABLE_RECORDS) return "Table Records";
+  else if (route === ROUTE_USER_PROFILES) return "Profiles";
+  else if (route === ROUTE_USER_ROLES) return "Roles";
+  else if (route === ROUTE_USER_ROLE_PRIVILEGES) return "Role Privileges";
+  else if (route === ROUTE_USER_USERS) return "Users";
+  else if (route === ROUTE_USER_USER_PRIVILEGES) return "User Privileges";
+  else if (route === ROUTE_SESSION) return "Sessions";
+  else if (route === ROUTE_PROFILE) return "Profile";
+  else if (route === ROUTE_SETTINGS) return "Settings";
   return "";
 };

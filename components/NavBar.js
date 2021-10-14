@@ -24,7 +24,7 @@ import {
 
 import { useState } from "react";
 import { useRouter } from "next/dist/client/router";
-import * as URL from "../util/constants";
+import * as Constants from "../util/constants";
 
 const { SubMenu } = Menu;
 const { Sider } = Layout;
@@ -67,69 +67,69 @@ const NavBar = () => {
           }
         }}
       >
-        <Menu.Item key={URL.ROUTE_DASHBORAD} icon={<DashboardOutlined />}>
-          <Link href={URL.ROUTE_DASHBORAD}>Dashboard</Link>
+        <Menu.Item key={Constants.ROUTE_DASHBORAD} icon={<DashboardOutlined />}>
+          <Link href={Constants.ROUTE_DASHBORAD}>Dashboard</Link>
         </Menu.Item>
 
         <SubMenu key="/instance" icon={<DeploymentUnitOutlined />} title="Instance">
-          <Menu.Item key={URL.ROUTE_INSTANCE_DETAILS} icon={<UnorderedListOutlined />}>
-            <Link href={URL.ROUTE_INSTANCE_DETAILS}>Details</Link>
+          <Menu.Item key={Constants.ROUTE_INSTANCE_DETAILS} icon={<UnorderedListOutlined />}>
+            <Link href={Constants.ROUTE_INSTANCE_DETAILS}>Details</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_INSTANCE_SGA} icon={<PieChartOutlined />}>
-            <Link href={URL.ROUTE_INSTANCE_SGA}>SGA</Link>
+          <Menu.Item key={Constants.ROUTE_INSTANCE_SGA} icon={<PieChartOutlined />}>
+            <Link href={Constants.ROUTE_INSTANCE_SGA}>SGA</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_INSTANCE_BANNERS} icon={<OneToOneOutlined />}>
-            <Link href={URL.ROUTE_INSTANCE_BANNERS}>Banners</Link>
+          <Menu.Item key={Constants.ROUTE_INSTANCE_BANNERS} icon={<OneToOneOutlined />}>
+            <Link href={Constants.ROUTE_INSTANCE_BANNERS}>Banners</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_INSTANCE_RESOURCE_LIMIT} icon={<ColumnHeightOutlined />}>
-            <Link href={URL.ROUTE_INSTANCE_RESOURCE_LIMIT}>Resource Limit</Link>
+          <Menu.Item key={Constants.ROUTE_INSTANCE_RESOURCE_LIMIT} icon={<ColumnHeightOutlined />}>
+            <Link href={Constants.ROUTE_INSTANCE_RESOURCE_LIMIT}>Resource Limit</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_INSTANCE_PARAMETERS} icon={<ProjectOutlined />}>
-            <Link href={URL.ROUTE_INSTANCE_PARAMETERS}>Parameters</Link>
+          <Menu.Item key={Constants.ROUTE_INSTANCE_PARAMETERS} icon={<ProjectOutlined />}>
+            <Link href={Constants.ROUTE_INSTANCE_PARAMETERS}>Parameters</Link>
           </Menu.Item>
         </SubMenu>
 
         <SubMenu key="/performance" icon={<LineChartOutlined />} title="Performance">
-          <Menu.Item key={URL.ROUTE_PERFORMANCE_SESSION} icon={<LineChartOutlined />}>
-            <Link href={URL.ROUTE_PERFORMANCE_SESSION}>Session</Link>
+          <Menu.Item key={Constants.ROUTE_PERFORMANCE_SESSION} icon={<LineChartOutlined />}>
+            <Link href={Constants.ROUTE_PERFORMANCE_SESSION}>Session</Link>
           </Menu.Item>
         </SubMenu>
 
         <SubMenu key="/space" icon={<DatabaseOutlined />} title="Space">
-          <Menu.Item key={URL.ROUTE_SPACE_TABLESPACE} icon={<MacCommandFilled />}>
-            <Link href={URL.ROUTE_SPACE_TABLESPACE}>Tablespace</Link>
+          <Menu.Item key={Constants.ROUTE_SPACE_TABLESPACE} icon={<MacCommandFilled />}>
+            <Link href={Constants.ROUTE_SPACE_TABLESPACE}>Tablespace</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_SPACE_TOP_TABLES} icon={<OrderedListOutlined />}>
-            <Link href={URL.ROUTE_SPACE_TOP_TABLES}>Top Tables</Link>
+          <Menu.Item key={Constants.ROUTE_SPACE_TOP_TABLES} icon={<OrderedListOutlined />}>
+            <Link href={Constants.ROUTE_SPACE_TOP_TABLES}>Top Tables</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_SPACE_TOP_INDEXES} icon={<OrderedListOutlined />}>
-            <Link href={URL.ROUTE_SPACE_TOP_INDEXES}>Top Indexes</Link>
+          <Menu.Item key={Constants.ROUTE_SPACE_TOP_INDEXES} icon={<OrderedListOutlined />}>
+            <Link href={Constants.ROUTE_SPACE_TOP_INDEXES}>Top Indexes</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_SPACE_TABLE_RECORDS} icon={<TableOutlined />}>
-            <Link href={URL.ROUTE_SPACE_TABLE_RECORDS}>Table Records</Link>
+          <Menu.Item key={Constants.ROUTE_SPACE_TABLE_RECORDS} icon={<TableOutlined />}>
+            <Link href={Constants.ROUTE_SPACE_TABLE_RECORDS}>Table Records</Link>
           </Menu.Item>
         </SubMenu>
 
         <SubMenu key="/user" icon={<UserOutlined />} title="User">
-          <Menu.Item key={URL.ROUTE_USER_PROFILES} icon={<SolutionOutlined />}>
-            <Link href={URL.ROUTE_USER_PROFILES}>Profiles</Link>
+          <Menu.Item key={Constants.ROUTE_USER_PROFILES} icon={<SolutionOutlined />}>
+            <Link href={Constants.ROUTE_USER_PROFILES}>Profiles</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_USER_ROLES} icon={<TeamOutlined />}>
-            <Link href={URL.ROUTE_USER_ROLES}>Roles</Link>
+          <Menu.Item key={Constants.ROUTE_USER_ROLES} icon={<TeamOutlined />}>
+            <Link href={Constants.ROUTE_USER_ROLES}>Roles</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_USER_ROLE_PRIVILEGES} icon={<IdcardOutlined />}>
-            <Link href={URL.ROUTE_USER_ROLE_PRIVILEGES}>Role Privileges</Link>
+          <Menu.Item key={Constants.ROUTE_USER_ROLE_PRIVILEGES} icon={<IdcardOutlined />}>
+            <Link href={Constants.ROUTE_USER_ROLE_PRIVILEGES}>Role Privileges</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_USER_USERS} icon={<UserOutlined />}>
-            <Link href={URL.ROUTE_USER_USERS}>Users</Link>
+          <Menu.Item key={Constants.ROUTE_USER_USERS} icon={<UserOutlined />}>
+            <Link href={Constants.ROUTE_USER_USERS}>Users</Link>
           </Menu.Item>
-          <Menu.Item key={URL.ROUTE_USER_USER_PRIVILEGES} icon={<IdcardOutlined />}>
-            <Link href={URL.ROUTE_USER_USER_PRIVILEGES}>User Privileges</Link>
+          <Menu.Item key={Constants.ROUTE_USER_USER_PRIVILEGES} icon={<IdcardOutlined />}>
+            <Link href={Constants.ROUTE_USER_USER_PRIVILEGES}>User Privileges</Link>
           </Menu.Item>
         </SubMenu>
 
-        <Menu.Item key={URL.ROUTE_SESSION} icon={<ApartmentOutlined />}>
-          <Link href={URL.ROUTE_SESSION}>Session</Link>
+        <Menu.Item key={Constants.ROUTE_SESSION} icon={<ApartmentOutlined />}>
+          <Link href={Constants.ROUTE_SESSION}>Session</Link>
         </Menu.Item>
       </Menu>
     </Sider>

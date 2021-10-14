@@ -1,16 +1,17 @@
 import React from "react";
-import { Layout, Breadcrumb, Row, Col, Button, Dropdown, Menu, Modal } from "antd";
+import { Layout, Row, Col, Button, Dropdown, Menu, Modal } from "antd";
 import { UserOutlined, LogoutOutlined, SettingOutlined } from "@ant-design/icons";
 const { Header } = Layout;
 import Router from "next/router";
 import { useState } from "react";
+import * as Constants from "../util/constants";
 
-const AppBar = ({pageName}) => {
+const AppBar = ({ pageName }) => {
   const [logoutModalVisiable, setLogoutModalVisiable] = useState(false);
 
   const handleMenuClick = (e) => {
-    if (e.key === "profile") Router.push("/profile");
-    else if (e.key === "settings") Router.push("/settings");
+    if (e.key === "profile") Router.push(Constants.ROUTE_PROFILE);
+    else if (e.key === "settings") Router.push(Constants.ROUTE_SETTINGS);
     else if (e.key === "logout") setLogoutModalVisiable(true);
   };
 
@@ -47,7 +48,7 @@ const AppBar = ({pageName}) => {
         visible={logoutModalVisiable}
         onOk={() => {
           setLogoutModalVisiable(false);
-          Router.push("/login");
+          Router.push(Constants.ROUTE_LOGIN);
         }}
         onCancel={() => setLogoutModalVisiable(false)}
         okText="Yes"
