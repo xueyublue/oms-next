@@ -1,6 +1,13 @@
 import React from "react";
 import { Layout, Row, Col, Button, Dropdown, Menu, Modal, Badge } from "antd";
-import { UserOutlined, LogoutOutlined, SettingOutlined, BellOutlined, NotificationOutlined } from "@ant-design/icons";
+import {
+  UserOutlined,
+  LogoutOutlined,
+  SettingOutlined,
+  BellOutlined,
+  NotificationOutlined,
+  QuestionCircleOutlined,
+} from "@ant-design/icons";
 const { Header } = Layout;
 import Router from "next/router";
 import { useState } from "react";
@@ -47,6 +54,7 @@ const AppBar = ({ pageName }) => {
           <h3>{pageName}</h3>
         </Col>
         <Col span={12} style={{ textAlign: "right" }}>
+          <Button type="text" icon={<QuestionCircleOutlined />} />
           <Dropdown overlay={notifications}>
             <Badge size="small" count={2} offset={[-4, 8]}>
               <Button type="text" icon={<BellOutlined />} />
