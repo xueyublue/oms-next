@@ -90,8 +90,8 @@ const NavBar = () => {
         </SubMenu>
 
         <SubMenu key="/performance" icon={<LineChartOutlined />} title="Performance">
-          <Menu.Item key={URL.ROUTE_INSTANCE_PARAMETERS} icon={<LineChartOutlined />}>
-            <Link href={URL.ROUTE_INSTANCE_PARAMETERS}>Session</Link>
+          <Menu.Item key={URL.ROUTE_PERFORMANCE_SESSION} icon={<LineChartOutlined />}>
+            <Link href={URL.ROUTE_PERFORMANCE_SESSION}>Session</Link>
           </Menu.Item>
         </SubMenu>
 
