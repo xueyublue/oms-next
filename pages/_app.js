@@ -9,16 +9,16 @@ import "../styles/globals.css";
 import "./index.css";
 import AppBar from "../components/AppBar";
 import AppFooter from "../components/AppFooter";
+import { RouteToPageName } from "../util/constants";
 
 const { Content } = Layout;
 
 function MyApp({ Component, pageProps }) {
   const [pageWithoutNavigation, setPageWithoutNavigation] = useState(false);
+
   const { asPath } = useRouter();
-  if (asPath === "/login" && !pageWithoutNavigation)
-    setPageWithoutNavigation(true);
-  if (asPath !== "/login" && pageWithoutNavigation)
-    setPageWithoutNavigation(false);
+  if (asPath === "/login" && !pageWithoutNavigation) setPageWithoutNavigation(true);
+  if (asPath !== "/login" && pageWithoutNavigation) setPageWithoutNavigation(false);
 
   if (pageWithoutNavigation)
     return (
@@ -40,11 +40,8 @@ function MyApp({ Component, pageProps }) {
         <title>OMS</title>
       </Head>
       <NavBar />
-      <Layout
-        className="site-layout"
-        style={{ marginLeft: 220, minHeight: "100vh" }}
-      >
-        <AppBar />
+      <Layout className="site-layout" style={{ marginLeft: 220, minHeight: "100vh" }}>
+        <AppBar pageName={RouteToPageName(asPath)} />
         <Content
           className="site-layout-background"
           style={{

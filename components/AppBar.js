@@ -5,7 +5,7 @@ const { Header } = Layout;
 import Router from "next/router";
 import { useState } from "react";
 
-const AppBar = () => {
+const AppBar = ({pageName}) => {
   const [logoutModalVisiable, setLogoutModalVisiable] = useState(false);
 
   const handleMenuClick = (e) => {
@@ -32,7 +32,7 @@ const AppBar = () => {
     <Header className="site-layout-background" style={{ paddingLeft: 16 }}>
       <Row justify="start">
         <Col span={12}>
-          <h3>[Page Name]</h3>
+          <h3>{pageName}</h3>
         </Col>
         <Col span={12} style={{ textAlign: "right" }}>
           <Dropdown overlay={menu}>
