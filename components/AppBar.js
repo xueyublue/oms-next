@@ -1,6 +1,6 @@
 import React from "react";
-import { Layout, Row, Col, Button, Dropdown, Menu, Modal } from "antd";
-import { UserOutlined, LogoutOutlined, SettingOutlined } from "@ant-design/icons";
+import { Layout, Row, Col, Button, Dropdown, Menu, Modal, Badge } from "antd";
+import { UserOutlined, LogoutOutlined, SettingOutlined, BellOutlined, NotificationOutlined } from "@ant-design/icons";
 const { Header } = Layout;
 import Router from "next/router";
 import { useState } from "react";
@@ -15,7 +15,18 @@ const AppBar = ({ pageName }) => {
     else if (e.key === "logout") setLogoutModalVisiable(true);
   };
 
-  const menu = (
+  const notifications = (
+    <Menu onClick={handleMenuClick}>
+      <Menu.Item key="1" icon={<NotificationOutlined />}>
+        Occupancy of tablespace [SYSAUX, WMS_LARGE] are more than 80%. Please extend them.
+      </Menu.Item>
+      <Menu.Item key="2" icon={<NotificationOutlined />}>
+        CPU usage more than 80%. Please take necessary actions.
+      </Menu.Item>
+    </Menu>
+  );
+
+  const userMenu = (
     <Menu onClick={handleMenuClick}>
       <Menu.Item key="profile" icon={<UserOutlined />}>
         Profile
@@ -36,7 +47,12 @@ const AppBar = ({ pageName }) => {
           <h3>{pageName}</h3>
         </Col>
         <Col span={12} style={{ textAlign: "right" }}>
-          <Dropdown overlay={menu}>
+          <Dropdown overlay={notifications}>
+            <Badge size="small" count={2} offset={[-4, 8]}>
+              <Button type="text" icon={<BellOutlined />} />
+            </Badge>
+          </Dropdown>
+          <Dropdown overlay={userMenu}>
             <Button type="text" icon={<UserOutlined />}>
               DMS IS Team DEV
             </Button>
