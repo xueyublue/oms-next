@@ -16,7 +16,6 @@ import {
   ApartmentOutlined,
   SolutionOutlined,
   DashboardOutlined,
-  LogoutOutlined,
   OrderedListOutlined,
   MacCommandFilled,
   TableOutlined,
@@ -25,6 +24,7 @@ import {
 
 import { useState } from "react";
 import { useRouter } from "next/dist/client/router";
+import * as URL from "../util/constants";
 
 const { SubMenu } = Menu;
 const { Sider } = Layout;
@@ -67,80 +67,69 @@ const NavBar = () => {
           }
         }}
       >
-        <Menu.Item key="/dashboard" icon={<DashboardOutlined />}>
-          <Link href="/dashboard">Dashboard</Link>
+        <Menu.Item key={URL.ROUTE_DASHBORAD} icon={<DashboardOutlined />}>
+          <Link href={URL.ROUTE_DASHBORAD}>Dashboard</Link>
         </Menu.Item>
 
-        <SubMenu
-          key="/instance"
-          icon={<DeploymentUnitOutlined />}
-          title="Instance"
-        >
-          <Menu.Item key="/instance/details" icon={<UnorderedListOutlined />}>
-            <Link href="/instance/details">Details</Link>
+        <SubMenu key="/instance" icon={<DeploymentUnitOutlined />} title="Instance">
+          <Menu.Item key={URL.ROUTE_INSTANCE_DETAILS} icon={<UnorderedListOutlined />}>
+            <Link href={URL.ROUTE_INSTANCE_DETAILS}>Details</Link>
           </Menu.Item>
-          <Menu.Item key="/instance/sga" icon={<PieChartOutlined />}>
-            <Link href="/instance/sga">SGA</Link>
+          <Menu.Item key={URL.ROUTE_INSTANCE_SGA} icon={<PieChartOutlined />}>
+            <Link href={URL.ROUTE_INSTANCE_SGA}>SGA</Link>
           </Menu.Item>
-          <Menu.Item key="/instance/banners" icon={<OneToOneOutlined />}>
-            <Link href="/instance/banners">Banners</Link>
+          <Menu.Item key={URL.ROUTE_INSTANCE_BANNERS} icon={<OneToOneOutlined />}>
+            <Link href={URL.ROUTE_INSTANCE_BANNERS}>Banners</Link>
           </Menu.Item>
-          <Menu.Item
-            key="/instance/resourcelimit"
-            icon={<ColumnHeightOutlined />}
-          >
-            <Link href="/instance/resourcelimit">Resource Limit</Link>
+          <Menu.Item key={URL.ROUTE_INSTANCE_RESOURCE_LIMIT} icon={<ColumnHeightOutlined />}>
+            <Link href={URL.ROUTE_INSTANCE_RESOURCE_LIMIT}>Resource Limit</Link>
           </Menu.Item>
-          <Menu.Item key="/instance/parameters" icon={<ProjectOutlined />}>
-            <Link href="/instance/parameters">Parameters</Link>
+          <Menu.Item key={URL.ROUTE_INSTANCE_PARAMETERS} icon={<ProjectOutlined />}>
+            <Link href={URL.ROUTE_INSTANCE_PARAMETERS}>Parameters</Link>
           </Menu.Item>
         </SubMenu>
 
-        <SubMenu
-          key="/performance"
-          icon={<LineChartOutlined />}
-          title="Performance"
-        >
-          <Menu.Item key="/performance/session" icon={<LineChartOutlined />}>
-            <Link href="/performance/session">Session</Link>
+        <SubMenu key="/performance" icon={<LineChartOutlined />} title="Performance">
+          <Menu.Item key={URL.ROUTE_INSTANCE_PARAMETERS} icon={<LineChartOutlined />}>
+            <Link href={URL.ROUTE_INSTANCE_PARAMETERS}>Session</Link>
           </Menu.Item>
         </SubMenu>
 
         <SubMenu key="/space" icon={<DatabaseOutlined />} title="Space">
-          <Menu.Item key="/space/tablespace" icon={<MacCommandFilled />}>
-            <Link href="/space/tablespace">Tablespace</Link>
+          <Menu.Item key={URL.ROUTE_SPACE_TABLESPACE} icon={<MacCommandFilled />}>
+            <Link href={URL.ROUTE_SPACE_TABLESPACE}>Tablespace</Link>
           </Menu.Item>
-          <Menu.Item key="/space/toptables" icon={<OrderedListOutlined />}>
-            <Link href="/space/toptables">Top Tables</Link>
+          <Menu.Item key={URL.ROUTE_SPACE_TOP_TABLES} icon={<OrderedListOutlined />}>
+            <Link href={URL.ROUTE_SPACE_TOP_TABLES}>Top Tables</Link>
           </Menu.Item>
-          <Menu.Item key="/space/topindexes" icon={<OrderedListOutlined />}>
-            <Link href="/space/topindexes">Top Indexes</Link>
+          <Menu.Item key={URL.ROUTE_SPACE_TOP_INDEXES} icon={<OrderedListOutlined />}>
+            <Link href={URL.ROUTE_SPACE_TOP_INDEXES}>Top Indexes</Link>
           </Menu.Item>
-          <Menu.Item key="/space/tablerecords" icon={<TableOutlined />}>
-            <Link href="/space/tablerecords">Table Records</Link>
+          <Menu.Item key={URL.ROUTE_SPACE_TABLE_RECORDS} icon={<TableOutlined />}>
+            <Link href={URL.ROUTE_SPACE_TABLE_RECORDS}>Table Records</Link>
           </Menu.Item>
         </SubMenu>
 
         <SubMenu key="/user" icon={<UserOutlined />} title="User">
-          <Menu.Item key="/user/profiles" icon={<SolutionOutlined />}>
-            <Link href="/user/profiles">Profiles</Link>
+          <Menu.Item key={URL.ROUTE_USER_PROFILES} icon={<SolutionOutlined />}>
+            <Link href={URL.ROUTE_USER_PROFILES}>Profiles</Link>
           </Menu.Item>
-          <Menu.Item key="/user/roles" icon={<TeamOutlined />}>
-            <Link href="/user/roles">Roles</Link>
+          <Menu.Item key={URL.ROUTE_USER_ROLES} icon={<TeamOutlined />}>
+            <Link href={URL.ROUTE_USER_ROLES}>Roles</Link>
           </Menu.Item>
-          <Menu.Item key="/user/roleprivileges" icon={<IdcardOutlined />}>
-            <Link href="/user/roleprivileges">Role Privileges</Link>
+          <Menu.Item key={URL.ROUTE_USER_ROLE_PRIVILEGES} icon={<IdcardOutlined />}>
+            <Link href={URL.ROUTE_USER_ROLE_PRIVILEGES}>Role Privileges</Link>
           </Menu.Item>
-          <Menu.Item key="/user/users" icon={<UserOutlined />}>
-            <Link href="/user/users">Users</Link>
+          <Menu.Item key={URL.ROUTE_USER_USERS} icon={<UserOutlined />}>
+            <Link href={URL.ROUTE_USER_USERS}>Users</Link>
           </Menu.Item>
-          <Menu.Item key="/user/userprivileges" icon={<IdcardOutlined />}>
-            <Link href="/user/userprivileges">User Privileges</Link>
+          <Menu.Item key={URL.ROUTE_USER_USER_PRIVILEGES} icon={<IdcardOutlined />}>
+            <Link href={URL.ROUTE_USER_USER_PRIVILEGES}>User Privileges</Link>
           </Menu.Item>
         </SubMenu>
 
-        <Menu.Item key="/session" icon={<ApartmentOutlined />}>
-          <Link href="/session">Session</Link>
+        <Menu.Item key={URL.ROUTE_SESSION} icon={<ApartmentOutlined />}>
+          <Link href={URL.ROUTE_SESSION}>Session</Link>
         </Menu.Item>
       </Menu>
     </Sider>

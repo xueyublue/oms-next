@@ -1,19 +1,6 @@
 import React from "react";
-import {
-  Layout,
-  Breadcrumb,
-  Row,
-  Col,
-  Button,
-  Dropdown,
-  Menu,
-  Modal,
-} from "antd";
-import {
-  UserOutlined,
-  LogoutOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
+import { Layout, Breadcrumb, Row, Col, Button, Dropdown, Menu, Modal } from "antd";
+import { UserOutlined, LogoutOutlined, SettingOutlined } from "@ant-design/icons";
 const { Header } = Layout;
 import Router from "next/router";
 import { useState } from "react";
