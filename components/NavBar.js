@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import "antd/dist/antd.css";
 import { Layout, Menu } from "antd";
 import {
@@ -49,7 +50,9 @@ const NavBar = () => {
       }}
       width={220}
     >
-      <div className="logo" />
+      <div className="logo">
+        <Image src="/logo.png" alt="me" width="160" height="32" />
+      </div>
       <Menu
         theme="dark"
         mode="inline"
