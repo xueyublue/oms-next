@@ -124,7 +124,7 @@ const NavBar = () => {
           </Menu.Item>
         </SubMenu>
       </Menu>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ position: "fixed", bottom: 10, left: 90 }}>
         <Switch
           checkedChildren={<MdDarkMode />}
           unCheckedChildren={<MdDarkMode />}
