@@ -51,7 +51,7 @@ const NavBar = () => {
       width={220}
     >
       <div className="logo">
-        <Image src="/logo.png" alt="me" width="220" height="40" />
+        <Image src="/logo-sidenav.png" alt="me" width="220" height="40" />
       </div>
       <Menu
         theme="dark"

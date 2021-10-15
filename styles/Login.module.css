@@ -1,5 +1,11 @@
-.loginform {
-  max-width: 400px;
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(36, 30, 74, 0.8);
+  font-family: Segoe UI;
+  font-size: 14px;
+}
+.loginbox {
   width: 400px;
   height: 460px;
   border-radius: 10px;
@@ -13,12 +19,12 @@
   padding: 70px 30px;
 }
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 220px;
+  height: 40px;
   /*border-radius: 50%;*/
   position: absolute;
-  top: -60px;
-  left: calc(50% - 60px);
+  top: 15px;
+  left: calc(50% - 110px);
 }
 .loginformforgot {
   float: right;

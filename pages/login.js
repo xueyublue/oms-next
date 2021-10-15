@@ -12,13 +12,19 @@ const Login = ({ data }) => {
   };
 
   return (
-    <div>
-      <Form name="normal_login" className={styles.loginform} initialValues={{ remember: true }} onFinish={onFinish}>
+    <div className={styles.loginbox}>
+      <img src="/logo-login.png" className={styles.logo}></img>
+      <Form name="normal_login" initialValues={{ remember: true }} onFinish={onFinish}>
         <Form.Item name="username" rules={[{ required: true, message: "Please input your Username!" }]}>
-          <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
+          <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" size="large" />
         </Form.Item>
         <Form.Item name="password" rules={[{ required: true, message: "Please input your Password!" }]}>
-          <Input prefix={<LockOutlined className="site-form-item-icon" />} type="password" placeholder="Password" />
+          <Input
+            prefix={<LockOutlined className="site-form-item-icon" />}
+            type="password"
+            placeholder="Password"
+            size="large"
+          />
         </Form.Item>
         <Form.Item>
           <Form.Item name="remember" valuePropName="checked" noStyle>
@@ -29,8 +35,8 @@ const Login = ({ data }) => {
           </a>
         </Form.Item>
         <Form.Item>
-          <Button type="primary" htmlType="submit" className={styles.loginformbutton}>
-            Log in
+          <Button type="primary" htmlType="submit" className={styles.loginformbutton} size="large">
+            LOGIN
           </Button>
         </Form.Item>
       </Form>
