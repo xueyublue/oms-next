@@ -37,13 +37,13 @@ const AppBar = ({ pageName }) => {
 
   const userMenu = (
     <Menu onClick={handleMenuClick}>
-      <Menu.Item key="profile" icon={<FcBusinessman size={18} />}>
+      <Menu.Item key="profile" icon={<FcBusinessman size={20} />}>
         Profile
       </Menu.Item>
-      <Menu.Item key="settings" icon={<FcSettings size={18} />}>
+      <Menu.Item key="settings" icon={<FcSettings size={20} />}>
         Settings
       </Menu.Item>
-      <Menu.Item key="logout" icon={<RiLogoutBoxRLine size={18} />}>
+      <Menu.Item key="logout" icon={<RiLogoutBoxRLine size={20} />}>
         Logout
       </Menu.Item>
     </Menu>
