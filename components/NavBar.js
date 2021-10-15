@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import "antd/dist/antd.css";
-import { Layout, Menu } from "antd";
+import { Layout, Menu, Switch } from "antd";
 import {
   UserOutlined,
   PieChartOutlined,
@@ -18,7 +18,7 @@ import {
   MacCommandFilled,
   TableOutlined,
 } from "@ant-design/icons";
-import { MdOutlineStorage, MdOutlineDashboard } from "react-icons/md";
+import { MdOutlineStorage, MdOutlineDashboard, MdLightMode, MdDarkMode } from "react-icons/md";
 import { FcComboChart, FcMindMap, FcBusinessman } from "react-icons/fc";
 
 import { useState } from "react";
@@ -130,6 +130,15 @@ const NavBar = () => {
           </Menu.Item>
         </SubMenu>
       </Menu>
+      <div style={{ textAlign: "center" }}>
+        <Switch
+          checkedChildren={<MdDarkMode />}
+          unCheckedChildren={<MdDarkMode />}
+          onChange={(mode) => {
+            console.log(`Switch to ${mode}`);
+          }}
+        />
+      </div>
     </Sider>
   );
 };
