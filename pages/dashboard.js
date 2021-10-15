@@ -12,12 +12,9 @@ const Dashboard = () => {
       title: "Instance Status",
       content: (
         <Tag icon={<CheckCircleOutlined />} color="success" style={tagStyle}>
-          Online
+          Running
         </Tag>
       ),
-      handleClick: () => {
-        Router.push(Constants.ROUTE_INSTANCE_DETAILS);
-      },
     },
     {
       title: "SGA Occupancy",
@@ -31,7 +28,7 @@ const Dashboard = () => {
       },
     },
     {
-      title: "Session",
+      title: "Sessions",
       content: (
         <div>
           <Tag color="success" style={tagStyle2}>
@@ -102,7 +99,7 @@ const Dashboard = () => {
       dataSource={data}
       renderItem={(item) => (
         <List.Item>
-          <Card title={item.title} onClick={item.handleClick}>
+          <Card title={item.title} onClick={item.handleClick} style={{ textAlign: "center" }}>
             {item.content}
           </Card>
         </List.Item>
