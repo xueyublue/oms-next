@@ -18,8 +18,8 @@ import {
   MacCommandFilled,
   TableOutlined,
 } from "@ant-design/icons";
-import { MdOutlineStorage } from "react-icons/md";
-import { FcComboChart, FcMindMap, FcOrgUnit, FcBusinessman } from "react-icons/fc";
+import { MdOutlineStorage, MdOutlineDashboard } from "react-icons/md";
+import { FcComboChart, FcMindMap, FcBusinessman } from "react-icons/fc";
 
 import { useState } from "react";
 import { useRouter } from "next/dist/client/router";
@@ -68,7 +68,7 @@ const NavBar = () => {
           }
         }}
       >
-        <Menu.Item key={Constants.ROUTE_DASHBORAD} icon={<FcOrgUnit size={20} />}>
+        <Menu.Item key={Constants.ROUTE_DASHBORAD} icon={<MdOutlineDashboard size={20} />}>
           <Link href={Constants.ROUTE_DASHBORAD}>Dashboard</Link>
         </Menu.Item>
 
