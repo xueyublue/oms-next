@@ -1,5 +1,7 @@
+import Router from "next/router";
 import { List, Card, Tag } from "antd";
 import { CheckCircleOutlined, ClockCircleOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
+import * as Constants from "../util/constants";
 
 const Dashboard = () => {
   const data = [
@@ -10,6 +12,9 @@ const Dashboard = () => {
           Online
         </Tag>
       ),
+      handleClick: () => {
+        Router.push(Constants.ROUTE_INSTANCE_DETAILS);
+      },
     },
     {
       title: "SGA Occupancy",
@@ -18,6 +23,9 @@ const Dashboard = () => {
           45%
         </Tag>
       ),
+      handleClick: () => {
+        Router.push(Constants.ROUTE_INSTANCE_SGA);
+      },
     },
     {
       title: "Session",
@@ -31,6 +39,9 @@ const Dashboard = () => {
           </Tag>
         </div>
       ),
+      handleClick: () => {
+        Router.push(Constants.ROUTE_SESSION);
+      },
     },
     {
       title: "Tablespace Occupancy",
@@ -44,6 +55,7 @@ const Dashboard = () => {
           </Tag>
         </div>
       ),
+      handleClick: () => {Router.push(Constants.ROUTE_SPACE_TABLESPACE);},
     },
     {
       title: "Table Records",
@@ -57,6 +69,7 @@ const Dashboard = () => {
           </Tag>
         </div>
       ),
+      handleClick: () => {Router.push(Constants.ROUTE_SPACE_TABLE_RECORDS);},
     },
     {
       title: "Alerts",
@@ -82,7 +95,9 @@ const Dashboard = () => {
       dataSource={data}
       renderItem={(item) => (
         <List.Item>
-          <Card title={item.title}>{item.content}</Card>
+          <Card title={item.title} onClick={item.handleClick}>
+            {item.content}
+          </Card>
         </List.Item>
       )}
     />

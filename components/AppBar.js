@@ -1,14 +1,6 @@
 import React from "react";
-import { Layout, Row, Col, Button, Dropdown, Menu, Modal, Badge, Tag, Alert } from "antd";
-import {
-  UserOutlined,
-  LogoutOutlined,
-  SettingOutlined,
-  BellOutlined,
-  NotificationOutlined,
-  QuestionCircleOutlined,
-  ExclamationCircleOutlined,
-} from "@ant-design/icons";
+import { Layout, Row, Col, Button, Dropdown, Menu, Modal, Badge, Alert } from "antd";
+import { UserOutlined, LogoutOutlined, SettingOutlined, BellOutlined, QuestionCircleOutlined } from "@ant-design/icons";
 const { Header } = Layout;
 import Router from "next/router";
 import { useState } from "react";
