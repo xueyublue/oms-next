@@ -1,10 +1,12 @@
 import React from "react";
 import { Layout, Row, Col, Button, Dropdown, Menu, Modal, Badge, Alert } from "antd";
-import { UserOutlined, LogoutOutlined, SettingOutlined, BellOutlined, QuestionCircleOutlined } from "@ant-design/icons";
+import { UserOutlined, BellOutlined, QuestionCircleOutlined } from "@ant-design/icons";
 const { Header } = Layout;
 import Router from "next/router";
 import { useState } from "react";
 import * as Constants from "../util/constants";
+import { FcBusinessman, FcSettings } from "react-icons/fc";
+import { RiLogoutBoxRLine } from "react-icons/ri";
 
 const AppBar = ({ pageName }) => {
   const [logoutModalVisiable, setLogoutModalVisiable] = useState(false);
@@ -35,13 +37,13 @@ const AppBar = ({ pageName }) => {
 
   const userMenu = (
     <Menu onClick={handleMenuClick}>
-      <Menu.Item key="profile" icon={<UserOutlined />}>
+      <Menu.Item key="profile" icon={<FcBusinessman size={18} />}>
         Profile
       </Menu.Item>
-      <Menu.Item key="settings" icon={<SettingOutlined />}>
+      <Menu.Item key="settings" icon={<FcSettings size={18} />}>
         Settings
       </Menu.Item>
-      <Menu.Item key="logout" icon={<LogoutOutlined />}>
+      <Menu.Item key="logout" icon={<RiLogoutBoxRLine size={18} />}>
         Logout
       </Menu.Item>
     </Menu>

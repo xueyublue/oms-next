@@ -11,17 +11,15 @@ import {
   ProjectOutlined,
   OneToOneOutlined,
   LineChartOutlined,
-  DatabaseOutlined,
   IdcardOutlined,
   TeamOutlined,
-  ApartmentOutlined,
   SolutionOutlined,
-  DashboardOutlined,
   OrderedListOutlined,
   MacCommandFilled,
   TableOutlined,
-  DeploymentUnitOutlined,
 } from "@ant-design/icons";
+import { MdOutlineStorage } from "react-icons/md";
+import { FcComboChart, FcMindMap, FcOrgUnit, FcBusinessman } from "react-icons/fc";
 
 import { useState } from "react";
 import { useRouter } from "next/dist/client/router";
@@ -70,11 +68,11 @@ const NavBar = () => {
           }
         }}
       >
-        <Menu.Item key={Constants.ROUTE_DASHBORAD} icon={<DashboardOutlined />}>
+        <Menu.Item key={Constants.ROUTE_DASHBORAD} icon={<FcOrgUnit size={20} />}>
           <Link href={Constants.ROUTE_DASHBORAD}>Dashboard</Link>
         </Menu.Item>
 
-        <SubMenu key="/instance" icon={<DeploymentUnitOutlined />} title="Instance">
+        <SubMenu key="/instance" icon={<FcMindMap size={20} />} title="Instance">
           <Menu.Item key={Constants.ROUTE_INSTANCE_DETAILS} icon={<UnorderedListOutlined />}>
             <Link href={Constants.ROUTE_INSTANCE_DETAILS}>Details</Link>
           </Menu.Item>
@@ -92,13 +90,13 @@ const NavBar = () => {
           </Menu.Item>
         </SubMenu>
 
-        <SubMenu key="/performance" icon={<LineChartOutlined />} title="Performance">
+        <SubMenu key="/performance" icon={<FcComboChart size={20} />} title="Performance">
           <Menu.Item key={Constants.ROUTE_PERFORMANCE_SESSION} icon={<LineChartOutlined />}>
             <Link href={Constants.ROUTE_PERFORMANCE_SESSION}>Session</Link>
           </Menu.Item>
         </SubMenu>
 
-        <SubMenu key="/space" icon={<DatabaseOutlined />} title="Space">
+        <SubMenu key="/space" icon={<MdOutlineStorage size={20} />} title="Space">
           <Menu.Item key={Constants.ROUTE_SPACE_TABLESPACE} icon={<MacCommandFilled />}>
             <Link href={Constants.ROUTE_SPACE_TABLESPACE}>Tablespace</Link>
           </Menu.Item>
@@ -113,7 +111,7 @@ const NavBar = () => {
           </Menu.Item>
         </SubMenu>
 
-        <SubMenu key="/user" icon={<UserOutlined />} title="User">
+        <SubMenu key="/user" icon={<FcBusinessman size={20} />} title="User">
           <Menu.Item key={Constants.ROUTE_USER_PROFILES} icon={<SolutionOutlined />}>
             <Link href={Constants.ROUTE_USER_PROFILES}>Profiles</Link>
           </Menu.Item>
@@ -130,10 +128,6 @@ const NavBar = () => {
             <Link href={Constants.ROUTE_USER_USER_PRIVILEGES}>User Privileges</Link>
           </Menu.Item>
         </SubMenu>
-
-        <Menu.Item key={Constants.ROUTE_SESSION} icon={<ApartmentOutlined />}>
-          <Link href={Constants.ROUTE_SESSION}>Session</Link>
-        </Menu.Item>
       </Menu>
     </Sider>
   );

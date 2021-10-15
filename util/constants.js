@@ -19,8 +19,6 @@ export const ROUTE_USER_ROLES = "/user/roles";
 export const ROUTE_USER_ROLE_PRIVILEGES = "/user/roleprivileges";
 export const ROUTE_USER_USERS = "/user/users";
 export const ROUTE_USER_USER_PRIVILEGES = "/user/userprivileges";
-// session
-export const ROUTE_SESSION = "/session";
 // others
 export const ROUTE_PROFILE = "/profile";
 export const ROUTE_SETTINGS = "/settings";
@@ -34,7 +32,7 @@ export const RouteToPageName = (route) => {
   else if (route === ROUTE_INSTANCE_BANNERS) return "Banners";
   else if (route === ROUTE_INSTANCE_RESOURCE_LIMIT) return "Resource Limit";
   else if (route === ROUTE_INSTANCE_PARAMETERS) return "Instance Parameters";
-  else if (route === ROUTE_PERFORMANCE_SESSION) return "Session Performance";
+  else if (route === ROUTE_PERFORMANCE_SESSION) return "Session";
   else if (route === ROUTE_SPACE_TABLESPACE) return "Tablespace";
   else if (route === ROUTE_SPACE_TOP_TABLES) return "Top Tables";
   else if (route === ROUTE_SPACE_TOP_INDEXES) return "Top Indexes";
@@ -44,7 +42,6 @@ export const RouteToPageName = (route) => {
   else if (route === ROUTE_USER_ROLE_PRIVILEGES) return "Role Privileges";
   else if (route === ROUTE_USER_USERS) return "Users";
   else if (route === ROUTE_USER_USER_PRIVILEGES) return "User Privileges";
-  else if (route === ROUTE_SESSION) return "Sessions";
   else if (route === ROUTE_PROFILE) return "Profile";
   else if (route === ROUTE_SETTINGS) return "Settings";
   return "";
