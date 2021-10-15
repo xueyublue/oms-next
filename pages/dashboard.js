@@ -4,11 +4,14 @@ import { CheckCircleOutlined, ClockCircleOutlined, ExclamationCircleOutlined } f
 import * as Constants from "../util/constants";
 
 const Dashboard = () => {
+  const tagStyle = { fontSize: 14, padding: 5, width: "100%" };
+  const tagStyle2 = { fontSize: 14, padding: 5, width: "46%" };
+
   const data = [
     {
       title: "Instance Status",
       content: (
-        <Tag icon={<CheckCircleOutlined />} color="success">
+        <Tag icon={<CheckCircleOutlined />} color="success" style={tagStyle}>
           Online
         </Tag>
       ),
@@ -19,7 +22,7 @@ const Dashboard = () => {
     {
       title: "SGA Occupancy",
       content: (
-        <Tag icon={<CheckCircleOutlined />} color="success">
+        <Tag icon={<CheckCircleOutlined />} color="success" style={tagStyle}>
           45%
         </Tag>
       ),
@@ -31,10 +34,10 @@ const Dashboard = () => {
       title: "Session",
       content: (
         <div>
-          <Tag icon={<CheckCircleOutlined />} color="success">
+          <Tag color="success" style={tagStyle2}>
             57 Active
           </Tag>
-          <Tag icon={<ClockCircleOutlined />} color="warning">
+          <Tag color="warning" style={tagStyle2}>
             13 Inactive
           </Tag>
         </div>
@@ -47,10 +50,10 @@ const Dashboard = () => {
       title: "Tablespace Occupancy",
       content: (
         <div>
-          <Tag icon={<CheckCircleOutlined />} color="success">
+          <Tag color="success" style={tagStyle2}>
             8 Normal
           </Tag>
-          <Tag icon={<ExclamationCircleOutlined />} color="error">
+          <Tag color="error" style={tagStyle2}>
             2 High
           </Tag>
         </div>
@@ -63,10 +66,10 @@ const Dashboard = () => {
       title: "Table Records",
       content: (
         <div>
-          <Tag icon={<CheckCircleOutlined />} color="success">
+          <Tag color="success" style={tagStyle2}>
             1574 Normal
           </Tag>
-          <Tag icon={<ExclamationCircleOutlined />} color="error">
+          <Tag color="error" style={tagStyle2}>
             36 High
           </Tag>
         </div>
@@ -78,7 +81,7 @@ const Dashboard = () => {
     {
       title: "Alerts",
       content: (
-        <Tag icon={<ExclamationCircleOutlined />} color="error">
+        <Tag icon={<ExclamationCircleOutlined />} color="error" style={tagStyle}>
           4 Alerts
         </Tag>
       ),
