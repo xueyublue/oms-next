@@ -45,14 +45,15 @@ const NavBar = () => {
         height: "100vh",
         position: "fixed",
         left: 0,
+        backgroundColor: "white",
       }}
       width={220}
     >
       <div className="logo">
-        <Image src="/logo-sidenav.png" alt="me" width="220" height="40" />
+        <Image src="/logo-light.png" alt="me" width="220" height="40" />
       </div>
       <Menu
-        theme="dark"
+        //theme="dark"
         mode="inline"
         selectedKeys={[selectedKeys]}
         defaultSelectedKeys={["dashboard"]}
