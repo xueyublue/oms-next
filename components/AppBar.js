@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Row, Col, Button, Dropdown, Menu, Modal, Badge } from "antd";
+import { Layout, Row, Col, Button, Dropdown, Menu, Modal, Badge, Tag, Alert } from "antd";
 import {
   UserOutlined,
   LogoutOutlined,
@@ -7,6 +7,7 @@ import {
   BellOutlined,
   NotificationOutlined,
   QuestionCircleOutlined,
+  ExclamationCircleOutlined,
 } from "@ant-design/icons";
 const { Header } = Layout;
 import Router from "next/router";
@@ -24,11 +25,18 @@ const AppBar = ({ pageName }) => {
 
   const notifications = (
     <Menu onClick={handleMenuClick}>
-      <Menu.Item key="1" icon={<NotificationOutlined />}>
-        Occupancy of tablespace [SYSAUX, WMS_LARGE] are more than 80%. Please extend them.
+      <Menu.Item key="1">
+        <Alert
+          message="Occupancy of tablespace [SYSAUX, WMS_LARGE] are more than 80%. Please extend them."
+          type="warning"
+          showIcon
+        />
       </Menu.Item>
-      <Menu.Item key="2" icon={<NotificationOutlined />}>
-        CPU usage more than 80%. Please take necessary actions.
+      <Menu.Item key="2">
+        <Alert message="Host CPU usage more than 80%. Please take necessary actions." type="warning" showIcon />
+      </Menu.Item>
+      <Menu.Item key="3">
+        <Alert message="The setting was made." type="success" showIcon />
       </Menu.Item>
     </Menu>
   );
