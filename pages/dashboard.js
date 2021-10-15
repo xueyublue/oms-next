@@ -55,7 +55,9 @@ const Dashboard = () => {
           </Tag>
         </div>
       ),
-      handleClick: () => {Router.push(Constants.ROUTE_SPACE_TABLESPACE);},
+      handleClick: () => {
+        Router.push(Constants.ROUTE_SPACE_TABLESPACE);
+      },
     },
     {
       title: "Table Records",
@@ -69,7 +71,9 @@ const Dashboard = () => {
           </Tag>
         </div>
       ),
-      handleClick: () => {Router.push(Constants.ROUTE_SPACE_TABLE_RECORDS);},
+      handleClick: () => {
+        Router.push(Constants.ROUTE_SPACE_TABLE_RECORDS);
+      },
     },
     {
       title: "Alerts",
