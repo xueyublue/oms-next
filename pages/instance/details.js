@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table, message } from "antd";
 
 const columns = [
@@ -14,7 +14,24 @@ const columns = [
   },
 ];
 
-const InstanceDetails = ({ data }) => {
+const InstanceDetails = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/instance/details`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <h2>Loading</h2>;
+
   message.info(`${data.length} records found.`);
 
   return (
@@ -31,11 +48,3 @@ const InstanceDetails = ({ data }) => {
 };
 
 export default InstanceDetails;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/instance/details`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}
