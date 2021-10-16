@@ -123,7 +123,7 @@ const Tablespace = ({ data }) => {
 export default Tablespace;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/space/tablespace");
+  const response = await fetch(`${process.env.API_ROOT_URL}/space/tablespace`);
   const data = await response.json();
   return {
     props: { data: data },

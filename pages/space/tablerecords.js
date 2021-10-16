@@ -56,9 +56,7 @@ const TableRecords = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const ownerList = getDistinctOwners(data);
   const [owner, setOwner] = useState("All");
-  const filteredData = data.filter((row) =>
-    owner === "All" ? true : row.owner === owner
-  );
+  const filteredData = data.filter((row) => (owner === "All" ? true : row.owner === owner));
   message.info(`${data.length} records found.`);
 
   return (
@@ -114,9 +112,7 @@ const TableRecords = ({ data }) => {
 export default TableRecords;
 
 export async function getServerSideProps(context) {
-  const response = await fetch(
-    "http://localhost:8099/wse/restapi/oms/space/tablerecords"
-  );
+  const response = await fetch(`${process.env.API_ROOT_URL}/space/tablerecords`);
   const data = await response.json();
   return {
     props: { data: data },

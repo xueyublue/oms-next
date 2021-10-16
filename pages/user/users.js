@@ -1,10 +1,7 @@
 import React from "react";
 import { Table, Form, Button, Select, message, Tag } from "antd";
 import { useState } from "react";
-import {
-  CheckCircleOutlined,
-  ExclamationCircleOutlined,
-} from "@ant-design/icons";
+import { CheckCircleOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 
 const columns = [
   {
@@ -28,13 +25,7 @@ const columns = [
     render: (status) => (
       <Tag
         color={status === "OPEN" ? "green" : "volcano"}
-        icon={
-          status === "OPEN" ? (
-            <CheckCircleOutlined />
-          ) : (
-            <ExclamationCircleOutlined />
-          )
-        }
+        icon={status === "OPEN" ? <CheckCircleOutlined /> : <ExclamationCircleOutlined />}
         key={status}
       >
         {status}
@@ -96,9 +87,7 @@ const Users = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const statusList = getDistinctStatus(data);
   const [status, setStatus] = useState("All");
-  const filteredData = data.filter((row) =>
-    status === "All" ? true : row.accountStatus === status
-  );
+  const filteredData = data.filter((row) => (status === "All" ? true : row.accountStatus === status));
   message.info(`${data.length} records found.`);
 
   return (
@@ -154,9 +143,7 @@ const Users = ({ data }) => {
 export default Users;
 
 export async function getServerSideProps(context) {
-  const response = await fetch(
-    "http://localhost:8099/wse/restapi/oms/user/users"
-  );
+  const response = await fetch(`${process.env.API_ROOT_URL}/user/users`);
   const data = await response.json();
   return {
     props: { data: data },

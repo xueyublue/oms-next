@@ -74,7 +74,7 @@ const ResourceLimit = ({ data }) => {
 export default ResourceLimit;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/instance/resourcelimit");
+  const response = await fetch(`${process.env.API_ROOT_URL}/instance/resourcelimit`);
   const data = await response.json();
   return {
     props: { data: data },

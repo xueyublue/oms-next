@@ -20,10 +20,7 @@ const columns = [
     dataIndex: "passwordRequired",
     key: "passwordRequired",
     render: (passwordRequired) => (
-      <Tag
-        color={passwordRequired === "No" ? "green" : "geekblue"}
-        key={passwordRequired}
-      >
+      <Tag color={passwordRequired === "No" ? "green" : "geekblue"} key={passwordRequired}>
         {passwordRequired}
       </Tag>
     ),
@@ -61,9 +58,7 @@ const Roles = ({ data }) => {
 export default Roles;
 
 export async function getServerSideProps(context) {
-  const response = await fetch(
-    "http://localhost:8099/wse/restapi/oms/user/roles"
-  );
+  const response = await fetch(`${process.env.API_ROOT_URL}/user/roles`);
   const data = await response.json();
   return {
     props: { data: data },

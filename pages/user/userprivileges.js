@@ -39,9 +39,7 @@ const UserPrivileges = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const userNameList = getDistinctUserNames(data);
   const [userName, setUserName] = useState("All");
-  const filteredData = data.filter((row) =>
-    userName === "All" ? true : row.userName === userName
-  );
+  const filteredData = data.filter((row) => (userName === "All" ? true : row.userName === userName));
   message.info(`${data.length} records found.`);
 
   return (
@@ -97,9 +95,7 @@ const UserPrivileges = ({ data }) => {
 export default UserPrivileges;
 
 export async function getServerSideProps(context) {
-  const response = await fetch(
-    "http://localhost:8099/wse/restapi/oms/user/userprivileges"
-  );
+  const response = await fetch(`${process.env.API_ROOT_URL}/user/userprivileges`);
   const data = await response.json();
   return {
     props: { data: data },

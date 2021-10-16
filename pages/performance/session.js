@@ -184,7 +184,7 @@ const Sessions = ({ data }) => {
 export default Sessions;
 
 export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/sessions");
+  const response = await fetch(`${process.env.API_ROOT_URL}/sessions`);
   const data = await response.json();
   return {
     props: { data: data },

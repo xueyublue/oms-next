@@ -23,10 +23,7 @@ const columns = [
     align: "right",
     sorter: (a, b) => a.segmentSize - b.segmentSize,
     render: (value) => (
-      <Tag
-        color={value > 1024 ? "volcano" : value === 0 ? "default" : "green"}
-        key={value}
-      >
+      <Tag color={value > 1024 ? "volcano" : value === 0 ? "default" : "green"} key={value}>
         {formatNumberWithCommas(value)}
       </Tag>
     ),
@@ -45,9 +42,7 @@ const TopTables = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const ownerList = getDistinctOwners(data);
   const [owner, setOwner] = useState("All");
-  const filteredData = data.filter((row) =>
-    owner === "All" ? true : row.owner === owner
-  );
+  const filteredData = data.filter((row) => (owner === "All" ? true : row.owner === owner));
   message.info(`${data.length} records found.`);
 
   return (
@@ -103,9 +98,7 @@ const TopTables = ({ data }) => {
 export default TopTables;
 
 export async function getServerSideProps(context) {
-  const response = await fetch(
-    "http://localhost:8099/wse/restapi/oms/space/toptables"
-  );
+  const response = await fetch(`${process.env.API_ROOT_URL}/space/toptables`);
   const data = await response.json();
   return {
     props: { data: data },

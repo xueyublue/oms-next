@@ -39,9 +39,7 @@ const RolePrivileges = ({ data }) => {
   const [pageSize, setPageSize] = useState(15);
   const roleList = getDistinctRoles(data);
   const [role, setRole] = useState("All");
-  const filteredData = data.filter((row) =>
-    role === "All" ? true : row.role === role
-  );
+  const filteredData = data.filter((row) => (role === "All" ? true : row.role === role));
   message.info(`${data.length} records found.`);
 
   return (
@@ -97,9 +95,7 @@ const RolePrivileges = ({ data }) => {
 export default RolePrivileges;
 
 export async function getServerSideProps(context) {
-  const response = await fetch(
-    "http://localhost:8099/wse/restapi/oms/user/roleprivileges"
-  );
+  const response = await fetch(`${process.env.API_ROOT_URL}/user/roleprivileges`);
   const data = await response.json();
   return {
     props: { data: data },

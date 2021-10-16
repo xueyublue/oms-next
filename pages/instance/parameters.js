@@ -106,9 +106,7 @@ const Parameters = ({ data }) => {
 export default Parameters;
 
 export async function getServerSideProps(context) {
-  const response = await fetch(
-    "http://localhost:8099/wse/restapi/oms/instance/parameters"
-  );
+  const response = await fetch(`${process.env.API_ROOT_URL}/instance/parameters`);
   const data = await response.json();
   return {
     props: { data: data },
