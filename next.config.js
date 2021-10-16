@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: false,
-  assetPrefix: "./",
+  //assetPrefix: "./",
   redirects: async () => {
     return [
       {
