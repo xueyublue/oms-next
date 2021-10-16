@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import "antd/dist/antd.css";
 import { Layout, Menu, Switch } from "antd";
 import { MdDarkMode } from "react-icons/md";
@@ -44,7 +43,7 @@ const NavBar = () => {
   return (
     <Sider style={siderStyle} width={220}>
       <div className="logo">
-        <Image src={logo} alt="me" width="220" height="40" />
+        <img src={logo} alt="me" style={{ height: 32, width: 180 }} />
       </div>
       <Menu
         theme={menuTheme}
