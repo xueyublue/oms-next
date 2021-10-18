@@ -1,8 +1,8 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
 import { Table, message, Progress } from "antd";
-import { formatNumberWithCommas } from "../../util/util";
 import { Pie } from "react-chartjs-2";
+import { formatNumberWithCommas } from "../../util/util";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -38,7 +38,24 @@ const columns = [
   },
 ];
 
-const SgaConfigurations = ({ data }) => {
+const SgaConfigurations = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/instance/sgaconfig");
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   message.info(`${data.table.length} records found.`);
 
   return (
@@ -80,11 +97,3 @@ const SgaConfigurations = ({ data }) => {
 };
 
 export default SgaConfigurations;
-
-export async function getServerSideProps(context) {
-  const response = await fetch("http://10.33.1.168:8099/wse/restapi/oms/instance/sgaconfig");
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}

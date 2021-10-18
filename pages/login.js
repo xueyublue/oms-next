@@ -4,7 +4,7 @@ import { UserOutlined, LockOutlined } from "@ant-design/icons";
 import styles from "../styles/Login.module.css";
 import Router from "next/router";
 
-const Login = ({ data }) => {
+const Login = () => {
   const [form] = Form.useForm();
 
   const onFinish = (values) => {
@@ -45,11 +45,3 @@ const Login = ({ data }) => {
 };
 
 export default Login;
-
-export async function getServerSideProps(context) {
-  const response = await fetch("http://localhost:8099/wse/restapi/oms/user/roles");
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}
