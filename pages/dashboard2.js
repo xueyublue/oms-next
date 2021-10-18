@@ -47,7 +47,7 @@ const Dashboard2 = () => {
         />
       ),
       handleClick: () => {
-        Router.push(Constants.ROUTE_SESSION);
+        Router.push(Constants.ROUTE_PERFORMANCE_SESSION);
       },
     },
     {
