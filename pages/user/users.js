@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table, Form, Button, Select, message, Tag } from "antd";
-import { useState } from "react";
 import { CheckCircleOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -76,17 +76,35 @@ const columns = [
 ];
 
 const getDistinctStatus = (data) => {
+  if (!data) return null;
   let statusList = [];
   data.map((row) => row.accountStatus && statusList.push(row.accountStatus));
   return ["All", ...new Set(statusList)];
 };
 
-const Users = ({ data }) => {
+const Users = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
   const [form] = Form.useForm();
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(15);
   const statusList = getDistinctStatus(data);
   const [status, setStatus] = useState("All");
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/user/users`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   const filteredData = data.filter((row) => (status === "All" ? true : row.accountStatus === status));
   message.info(`${data.length} records found.`);
 
@@ -141,11 +159,3 @@ const Users = ({ data }) => {
 };
 
 export default Users;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/user/users`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}

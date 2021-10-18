@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table, Form, Button, Select, message, Tag } from "antd";
-import { useState } from "react";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -34,17 +34,35 @@ const columns = [
 ];
 
 const getDistinctProfiles = (data) => {
+  if (!data) return null;
   let profiles = [];
   data.map((row) => row.profile && profiles.push(row.profile));
   return ["All", ...new Set(profiles)];
 };
 
-const Profiles = ({ data }) => {
+const Profiles = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
   const [form] = Form.useForm();
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(15);
   const profileList = getDistinctProfiles(data);
   const [profile, setProfile] = useState("All");
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/user/profiles`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   const filteredData = data.filter((row) => (profile === "All" ? true : row.profile === profile));
   message.info(`${data.length} records found.`);
 
@@ -99,11 +117,3 @@ const Profiles = ({ data }) => {
 };
 
 export default Profiles;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/user/profiles`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}

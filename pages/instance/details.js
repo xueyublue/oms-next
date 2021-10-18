@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Table, message } from "antd";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -30,7 +31,7 @@ const InstanceDetails = () => {
     }, 1000);
   }, []);
 
-  if (isLoading) return <h2>Loading</h2>;
+  if (isLoading) return <Loading />;
 
   message.info(`${data.length} records found.`);
 

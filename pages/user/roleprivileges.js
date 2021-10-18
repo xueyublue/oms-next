@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table, Form, Button, Select, message, Tag } from "antd";
-import { useState } from "react";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -28,17 +28,35 @@ const columns = [
 ];
 
 const getDistinctRoles = (data) => {
+  if (!data) return null;
   let roleList = [];
   data.map((row) => row.role && roleList.push(row.role));
   return ["All", ...new Set(roleList)];
 };
 
-const RolePrivileges = ({ data }) => {
+const RolePrivileges = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
   const [form] = Form.useForm();
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(15);
   const roleList = getDistinctRoles(data);
   const [role, setRole] = useState("All");
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/user/roleprivileges`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   const filteredData = data.filter((row) => (role === "All" ? true : row.role === role));
   message.info(`${data.length} records found.`);
 
@@ -93,11 +111,3 @@ const RolePrivileges = ({ data }) => {
 };
 
 export default RolePrivileges;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/user/roleprivileges`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}

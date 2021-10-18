@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table, Form, Button, Select, message, Tag } from "antd";
-import { useState } from "react";
 import { formatNumberWithCommas } from "../../util/util";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -31,17 +31,35 @@ const columns = [
 ];
 
 const getDistinctOwners = (data) => {
+  if (!data) return null;
   let owners = [];
   data.map((row) => row.owner && owners.push(row.owner));
   return ["All", ...new Set(owners)];
 };
 
-const TopTables = ({ data }) => {
+const TopTables = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
   const [form] = Form.useForm();
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(15);
   const ownerList = getDistinctOwners(data);
   const [owner, setOwner] = useState("All");
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/space/toptables`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   const filteredData = data.filter((row) => (owner === "All" ? true : row.owner === owner));
   message.info(`${data.length} records found.`);
 
@@ -96,11 +114,3 @@ const TopTables = ({ data }) => {
 };
 
 export default TopTables;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/space/toptables`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}

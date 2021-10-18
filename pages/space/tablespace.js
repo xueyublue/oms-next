@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table, Form, Progress, message, Tag } from "antd";
 import { CheckCircleOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 import { formatNumberWithCommas } from "../../util/util";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -102,8 +103,24 @@ const columns = [
   },
 ];
 
-const Tablespace = ({ data }) => {
-  const [form] = Form.useForm();
+const Tablespace = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/space/tablespace`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   message.info(`${data.length} records found.`);
 
   return (
@@ -121,11 +138,3 @@ const Tablespace = ({ data }) => {
 };
 
 export default Tablespace;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/space/tablespace`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Table, message, Tag } from "antd";
-import { useState } from "react";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -43,9 +43,26 @@ const columns = [
   },
 ];
 
-const ResourceLimit = ({ data }) => {
+const ResourceLimit = () => {
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(15);
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/instance/resourcelimit`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   message.info(`${data.length} records found.`);
 
   return (
@@ -72,11 +89,3 @@ const ResourceLimit = ({ data }) => {
 };
 
 export default ResourceLimit;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/instance/resourcelimit`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}

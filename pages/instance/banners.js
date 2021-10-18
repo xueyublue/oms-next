@@ -1,6 +1,6 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
 import { Table } from "antd";
+import Loading from "../../components/Loading";
 
 const columns = [
   {
@@ -10,7 +10,24 @@ const columns = [
   },
 ];
 
-const Banners = ({ data }) => {
+const Banners = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_ROOT_URL}/instance/banners`);
+      const result = await response.json();
+      setData(result);
+      setIsLoading(false);
+    }
+    setTimeout(() => {
+      fetchData();
+    }, 1000);
+  }, []);
+
+  if (isLoading) return <Loading />;
+
   return (
     <div>
       <Table
@@ -25,11 +42,3 @@ const Banners = ({ data }) => {
 };
 
 export default Banners;
-
-export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.API_ROOT_URL}/instance/banners`);
-  const data = await response.json();
-  return {
-    props: { data: data },
-  };
-}
